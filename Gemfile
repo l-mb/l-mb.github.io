@@ -28,3 +28,7 @@ gem "tzinfo-data", platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # Performance-booster for watching directories on Windows
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
+# This seems to no longer be working and cause a conflict in jekyll
+# versions? (lmb, 2018-05-22)
+# gem "github-pages", group: :jekyll_plugins
+

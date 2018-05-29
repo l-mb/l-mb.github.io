@@ -29,7 +29,7 @@ meet, and how you can influence them in your system.
 
 My name is Lars Marowsky-Brée, and it is my pleasure to be your host for
 this session. Since this is the first in the series, a
-bio-in-four-sentences: I am the architect for SUSE's Enterprise Storage
+quick introduction: I am the architect for SUSE's Enterprise Storage
 product, which is powered by the Open Source Ceph project. I also
 represent SUSE on the Ceph Advisory Board. I have been with SUSE since
 2000 and with Linux and Open Source since 1994.  I am specifically
@@ -40,13 +40,13 @@ interested in distributed systems and storage.
 I also must add a disclaimer; this is somewhat of a simplification.
 There are many more factors that affect this and dimensions to discuss.
 Here, we only pick two of them, and ignore most everything else except
-in passing. Your environment might have other observations due to that.
+in passing. Your environment might thus differ.
 
 That said ...
 
 ## How everyone starts
 
-So, you have build a shiny new Ceph cluster. Either as a pilot,
+So, you have built a shiny new Ceph cluster. Either as a pilot,
 proof-of-concept, lab, or for production; eventually, you will want to
 know how fast this thing goes!
 
@@ -119,10 +119,10 @@ wait as long as the road flows.
 If you're building that road, you will add as many lanes as you can, and
 prioritize literal bandwidth over the speed limit.
 
-And how would you see how fast you can get a courier package from point
-A to point B? You pick the lightest envelope, and hand it to a courier
-on a blazingly fast motorcycle with no additional weight to slow them
-down.
+And how would you see how quickly you can get a courier package from
+point A to point B? You pick the lightest envelope, and hand it to a
+courier on a blazingly fast motorcycle with no additional weight to slow
+them down.
 
 If you build and can control the road, you might even go for a single
 lane - it does not need to be wide, but it needs to be absolutely
@@ -138,7 +138,7 @@ how long it took to transfer an individual package under those
 circumstances.
 
 Clearly, that doesn't work so well. There are many factors that play
-against us here.
+against us then.
 
 It takes longer to transfer a large package; yet, a large package is the
 most efficient way of transferring lots of data. There's simply less
@@ -171,6 +171,8 @@ What we *actually* want to know is what load the system can sustain
 *without degrading* - meaning while still achieving the latency target
 we need.
 
+### fio to the rescue
+
 Thankfully, our Swiss Army knife [fio][fio] has two approaches of
 helping us out here.
 
@@ -187,6 +189,8 @@ running a test with multiple clients, you can get strange effects when
 they all try to find that sweet spot at the very same time. The test
 period is also fairly brief, which might not account for the ramp up
 time of a distributed storage system well.
+
+### rate limiting individual jobs
 
 The second approach is to limit the IO rate of our system via the [rate
 job option][http://fio.readthedocs.io/en/latest/fio_doc.html#i-o-rate].
@@ -214,6 +218,8 @@ your goal - so how to adjust?
 
 There are two key dimensions in which we can scale our system.
 
+### Throughput
+
 First, bandwidth. Ceph excels at *scaling out* - adding storage devices
 and nodes to the system. Due to Ceph's inherent pseudo-random
 distribution of data across all storage devices, as long as the
@@ -228,6 +234,8 @@ take without degrading.
 Yet, the performance of a single optimal request does not improve
 quite as much. Which brings us to our second dimension:
 
+### Latency
+
 Latency. The optimal latency a system can achieve is determined by
 summing up the time of all the steps a request goes through - the
 network layer, CPU processing time, even RAM, busses, and finally the
@@ -241,11 +249,11 @@ or at least using a hybrid solution to reduce it.
 These will lower the base line latency of the system, and reduce how
 much it degrades under increased load.
 
-### Caveat emptor!
+### Buyer beware
 
 While trying to remain clear and concise, the engineer in me reminds us
 again that actual results will depend on many factors, some having a
-quite counter-intuitive impact.
+quite counter-intuitive impact, such as possibly compression.
 
 It is also mandatory to test the real services and applications on your
 cluster, and to also test them under adverse conditions.
@@ -266,6 +274,8 @@ regard to our system architecture.
 
 With this in mind, we can be more confident about choosing the right
 hardware and the right amount of hardware for our needs.
+
+### Wrap up
 
 I hope you found this podcast useful. I would love to hear your
 feedback: on [Twitter][http://twitter.com/larsmb] or by reaching out to

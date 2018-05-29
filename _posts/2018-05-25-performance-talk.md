@@ -5,19 +5,21 @@ date:   2018-05-22 15:42:01 +0200
 categories: sds ceph
 ---
 
-I published an [audio blog][audio-blog] entry for my [employer][SUSE] to
-discuss two major dimensions of benchmarking Software-Defined-Storage
-systems, and in particular [Ceph][ceph].
+In this podcast, I discuss two fundamental dimensions of benchmarking 
+Software-Defined-Storage
+systems, and in particular [Ceph][ceph]. Everyone starts out with a very
+simple benchmark; it's important to understand its limitations and what
+you might want to look at instead.
 
-In this blog, you can find the script for the audio; or rather, what I
+<audio src="/assets/audio/performance-blog.ogg" controls preload></audio>
+
+In this post, you can find the corresponding script, or at elast what I
 intended to say. In case you prefer reading text or have trouble with my
 audio recording, this is for you!
 
-I have also uploaded the slides to [Slideshare][slideshare].
+## Script
 
-# Script
-
-## Introduction
+### Introduction
 
 Hello and welcome everyone to an introduction to benchmarking
 software-defined-storage systems, notably Ceph. In particular, we will
@@ -35,7 +37,7 @@ represent SUSE on the Ceph Advisory Board. I have been with SUSE since
 2000 and with Linux and Open Source since 1994.  I am specifically
 interested in distributed systems and storage.
 
-## Disclaimer
+### Disclaimer
 
 I also must add a disclaimer; this is somewhat of a simplification.
 There are many more factors that affect this and dimensions to discuss.
@@ -44,7 +46,7 @@ in passing. Your environment might thus differ.
 
 That said ...
 
-## How everyone starts
+### How everyone starts
 
 So, you have built a shiny new Ceph cluster. Either as a pilot,
 proof-of-concept, lab, or for production; eventually, you will want to
@@ -64,7 +66,7 @@ report, and there you go - **100 Gigabytes/s**.
 
 *Bam!* All done.
 
-## Shock sets in
+### Shock sets in
 
 But you are more savvy than this. You know that there are two more numbers
 that matter - latency and Input/Output operations per second (IOPS for
@@ -75,7 +77,7 @@ And you look at that benchmark report you just got *again* and ...
 
 Now, before you rip everything apart and throw it out of the window,
 
-## Let's take a step back.
+### Let's take a step back.
 
 In particular, let's look at what these dimensions mean, and that
 will help us understand why you did not measure what you thought it
@@ -108,7 +110,7 @@ transferring cargo by road.
   the requests, you get to the throughput number; the relationship with
   latency is slightly more complicated.
 
-## What do you want to measure?
+### What do you want to measure?
 
 How do you transfer as much cargo as possible over a given stretch of
 road? Well, you load up the biggest trucks allowed with as much cargo as
@@ -130,7 +132,7 @@ smooth, preferably straight, no intersections.
 
 And for sure without a single truck in sight.
 
-## Going back to our benchmark report
+### Going back to our benchmark report
 
 We now realize what happened. We ran a test that absolutely congested
 our road, squeezing out the last bit of throughput, and then looked at
@@ -154,7 +156,7 @@ with 40 GbE instead of 25 GbE ports. Yet in fact, 40 GbE is composed of
 25 GbE would have been a single lane with much better individual
 latency. (And 100 GbE would be the equivalent bundle.)
 
-## Now: better benchmarks
+### Now: better benchmarks
 
 Doing said benchmark with a single "fast courier" would not be very
 realistic either. Such synthetic benchmarks are useful from a
@@ -171,7 +173,7 @@ What we *actually* want to know is what load the system can sustain
 *without degrading* - meaning while still achieving the latency target
 we need.
 
-### fio to the rescue
+#### fio to the rescue
 
 Thankfully, our Swiss Army knife [fio][fio] has two approaches of
 helping us out here.
@@ -190,7 +192,7 @@ they all try to find that sweet spot at the very same time. The test
 period is also fairly brief, which might not account for the ramp up
 time of a distributed storage system well.
 
-### rate limiting individual jobs
+#### rate limiting individual jobs
 
 The second approach is to limit the IO rate of our system via the [rate
 job option][http://fio.readthedocs.io/en/latest/fio_doc.html#i-o-rate].
@@ -200,7 +202,7 @@ started out with first. And then, knowing the maximum, run the test
 again at each ten percent increment. In this way, we will also gain a
 much better understanding of the performance curve of our system.
 
-## What load factor to aim for?
+### What load factor to aim for?
 
 Just like the autobahn, you would not run your system under maximum load
 all the time. Any system needs some amount of performance buffer - you
@@ -214,11 +216,11 @@ percent at normal operations.
 It is quite likely your initial pilot deployment did not perfectly reach
 your goal - so how to adjust?
 
-## Scaling in response
+### Scaling in response
 
 There are two key dimensions in which we can scale our system.
 
-### Throughput
+#### Throughput
 
 First, bandwidth. Ceph excels at *scaling out* - adding storage devices
 and nodes to the system. Due to Ceph's inherent pseudo-random
@@ -234,7 +236,7 @@ take without degrading.
 Yet, the performance of a single optimal request does not improve
 quite as much. Which brings us to our second dimension:
 
-### Latency
+#### Latency
 
 Latency. The optimal latency a system can achieve is determined by
 summing up the time of all the steps a request goes through - the
@@ -265,7 +267,7 @@ defaults, your use case might vary.
 Still, understanding these two dimensions and their intersection is a
 key step in designing better Ceph clusters!
 
-## In conclusion
+### In conclusion
 
 We have now discussed latency versus throughput, and how to merge these
 two into a more representative benchmark. We have also briefly touched
@@ -275,7 +277,7 @@ regard to our system architecture.
 With this in mind, we can be more confident about choosing the right
 hardware and the right amount of hardware for our needs.
 
-### Wrap up
+#### Wrap up
 
 I hope you found this podcast useful. I would love to hear your
 feedback: on [Twitter][http://twitter.com/larsmb] or by reaching out to
@@ -287,8 +289,6 @@ And, please, spread the word and link!
 Thanks for your time and have a great day.
 
 
-[audio-blog]:   http://google.com/
 [SUSE]:         http://suse.com/
 [ceph]:         http://ceph.com/
-[slideshare]:   http://slideshare.com/xxxxxx
 [fio]:          http://fio.readthedocs.io/en/latest/index.html

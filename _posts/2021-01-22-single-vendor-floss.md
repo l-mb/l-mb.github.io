@@ -63,14 +63,20 @@ world, for higher quality).
 ## Maintaining the competitive advantage
 
 It's either impossible or very costly (which in profit-maximizing
-capitalism are interchangeable terms) to maintain said competitive edge
-while on equal footing with the other players.
+capitalism are interchangeable terms) to maintain said massive
+competitive edge while on equal footing with the other players.
 
-Hence, at some point, they will necessarily have to try and imbalance
+It does not matter whether this edge is technical differentiation
+(somebody else can build whatever add-on your open core withheld), or
+the experienced staff (you can never employ every single expert, and
+Open Source means others can become experts, and users necessarily
+build up expertise over time).
+
+Hence, at some point, they will necessarily have to consider imbalancing
 the field. Modifying the license, trademarks, patent enforcement,
 withholding improvements, restricting use, increasing the barriers to
-collaboration, not accepting contributions so they can maintain control
-- we know the playbook.
+collaboration, not accepting contributions so they can maintain
+control - we know the playbook.
 
 ### The inevitable fork in the road
 
@@ -78,12 +84,12 @@ Alas, this is a slippery slope - there will come a point at which this
 creates a sufficient incentive for others to take the last commit before
 the vendor applied the disruptive license change and fork the project.
 
-(Another outcome is that folks switch to a different project more to
-their liking, and the original mostly withers. Not typically desirable
-either, since it reduces the potential customer base, but hey, those
-remaining are obviously captive.)
+(Another outcome is that folks switch to or even start an entirely
+different project more to their liking, and the original mostly withers.
+Not typically desirable either, since it reduces the potential customer
+base, but hey, those remaining are obviously captive.)
 
-Because for **them** - that project that's the core of the
+Because for **them** - that project that's the whole core of the
 single-vendor's business? It's *just* infrastructure. *Their* value lies
 elsewhere.
 
@@ -130,34 +136,35 @@ Such a model *cannot* deliver, much less sustain, the
 above-market-average profit margins and exponential growth required by
 investors.
 
-It may appear to for a time, but eventually, the market catches up. The
-commoditization is built into Free, Libre, Open Source infrastructure
-much deeper than many other areas.
+It may appear to for a time, but eventually, the market catches up and
+the regression to the mean starts. The commoditization is built into the
+DNA of Free, Libre, Open Source.
 
-The trick is to exit before the investors catch on - or be bought by one
+One trick is to exit before the investors catch on - or be bought by one
 of those companies for whom you're just infrastructure and have your
-business model transformed. If that is too expensive, they will just
-- either individually or by coming together - swat your business model
-like an annoying fly.
+business model transformed. If that is too expensive or inconvenient,
+they will just - either individually or by coming together - swat your
+business model like an annoying fly.
 
-Your customers and users together are *always* bigger than you are. And
-to a global CSP, every single-vendor project company is unnoticeable
-roadkill.
+Your customers and users together are *always* bigger than you are. That
+is the Power of Many. And to a global CSP, every single-vendor project
+company is unnoticeable roadkill.
 
 # TL;DR
 
 There are fundamental conflicts between Free, Libre, Open Source
 models's and (hyper-)growth-oriented capitalism's definition of
-success.
+success and incentives.
 
 The question is not *if* this will break, but only *when*.
 
 # Quo vadis?
 
 It is my personal belief - nay, understanding - that we must find and
-utilize ways of sustainably creating Free, Libre, and Open Source
-projects, especially in the infrastructure space, without needing to
-resort to profit-maximizing venture capitalism and investors.
+utilize ways of sustainably creating and supporting Free, Libre, and
+Open Source projects, especially in the infrastructure space, without
+resorting to profit-maximizing venture capitalism and investors as the
+only option.
 
 Supporting Free, Libre, Open Source commercially *is* feasible - but the
 model all but guarantees that such business models revert to sustainable
@@ -172,15 +179,20 @@ adequate incentives and rewards. It cannot be good for society if, as we
 currently do, much of this happens with somewhat stretched truths and
 by pretending unsustainable business models in fact are.
 
-Relevant Free, Libre, and Open Source projects need to be owned
-collectively and in a collaborative fashion. They are public goods; this
-is especially true for infrastructure components.
-
 As investors begin to see and understand this, I further believe that
 single-vendor projects will receive lower - that is, more appropriate
-- valuation and reduce the pressure to create even more of them. Those
-in search of billion-dollar pay-offs will go seek the next tulip bulb.
-So if you're currently caught up in this, brace for impact.
+valuation and reduce the pressure to create even more of them. Those in
+search of billion-dollar pay-offs will go seek the next tulip mania.  So
+if you're currently caught up in this, brace for impact, and make sure
+you realistically assess what you can achieve for and from your current
+and future investors.
+
+Relevant Free, Libre, and Open Source projects need to be owned
+collectively and in a collaborative fashion. They are public goods; this
+is especially true for infrastructure components. Organizational
+structures exist and are gaining traction - for-purpose organizations,
+associations, cooperatives, foundations, private-public partnerships,
+and even fully public-sector undertakings.
 
 This will only be a small contribution to evolving our economy towards
 more sustainability.

@@ -135,27 +135,26 @@ utilize ways of sustainably creating Free, Libre, and Open Source
 projects, especially in the infrastructure space, without needing to
 resort to profit-maximizing venture capitalism and investors.
 
-Supporting Free, Libre, Open Source commercially is feasible - but the
-model of the software all but guarantees that such business models
-revert to sustainable approaches. (This may be a hopeful exaggeration.)
-Or fail painfully.
+Supporting Free, Libre, Open Source commercially *is* feasible - but the
+model all but guarantees that such business models revert to sustainable
+approaches. (This may be a hopeful exaggeration.) Or fail painfully.
 
-However, I am a proponent of taking this into account from the start,
-without going through all the sadness of massive commercial failure and
-enriching only a few while harming many.
+However, I am a proponent of taking this into account from the
+beginning, without going through all the sadness of massive commercial
+failure and enriching only a few while harming many.
 
 Yes, we need incubators for testing out new ideas and innovations, with
 adequate incentives and rewards. It cannot be good for society if, as we
 currently do, much of this happens with somewhat stretched truths and
 by pretending unsustainable business models in fact are.
 
-Relevant Free, Libre, and Open Source projects need to be maintained
+Relevant Free, Libre, and Open Source projects need to be owned
 collectively and in a collaborative fashion. They are public goods; this
 is especially true for infrastructure components.
 
 As investors begin to see and understand this, I further believe that
 single-vendor projects will receive lower - that is, more appropriate
-valuation, and reduce the pressure to create even more of these. Those
+- valuation and reduce the pressure to create even more of them. Those
 in search of billion-dollar pay-offs will go seek the next tulip bulb.
 So if you're currently caught up in this, brace for impact.
 
@@ -164,6 +163,9 @@ more sustainability.
 
 As a society, and also as a software community, we need to reward and
 value collaboration, not divisiveness.
+
+Let's [discuss][twitter].
+
 
 [twitter]:         http://twitter.com/larsmb
 

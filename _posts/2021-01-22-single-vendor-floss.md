@@ -5,7 +5,14 @@ date:   2021-01-21 12:0:00 +0100
 categories: meta, floss
 ---
 
-# Why?
+It's been quite a while since I wrote anything on this blog, since
+mostly I've been ranting over on [Twitter][twitter]. But let's look at
+single-vendor Free, Libre, Open Source projects for a moment - realizing
+that many others have also already voiced and written down their
+thoughts, my main goal here is not to point out something fundamentally
+new, but highlight specific aspects.
+
+# Why Single-Vendor approaches?
 
 Why do people attempt to build single-vendor (or vendor-owned, depending
 on how charitable you feel) Open Source projects? Often in combination
@@ -150,4 +157,5 @@ This is a small contribution to evolving our economy towards more
 sustainability.  As a society, we need to value collaboration, not
 divisiveness.
 
+[twitter]:         http://twitter.com/larsmb
 

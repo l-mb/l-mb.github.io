@@ -14,7 +14,7 @@ voiced and written down their thoughts, my main goal here in voicing my
 own anecdotal perspective is not to point out something fundamentally
 new, but to highlight specific aspects.
 
-# Why Single-Vendor approaches?
+## Why Single-Vendor approaches?
 
 Why do people attempt single-vendor (or vendor-owned, depending on how
 charitable you feel) Open Source projects? Often in combination with
@@ -41,7 +41,7 @@ recruiting), possibly can demonstrate some conversion to paying
 customers/partners, the potential for the project to be adopted more
 widely becomes visible.  Excellent! This is what we all like to see.
 
-# Catch-22
+## Catch-22
 
 The problem is that this must necessarily "fail" once the project
 succeeds.
@@ -78,7 +78,7 @@ withholding improvements, restricting use, increasing the barriers to
 collaboration, not accepting contributions so they can maintain
 control - we know the playbook.
 
-### The inevitable fork in the road
+## The inevitable fork in the road
 
 Alas, this is a slippery slope - there will come a point at which this
 creates a sufficient incentive for others to take the last commit before
@@ -110,7 +110,7 @@ create a more successful alternative. This will contribute significantly
 to the consequences - it will make it easier for said others to recruit
 and/or provide them with an alternative to switch to.
 
-# Decision time
+## Decision time
 
 A single-vendor project can succeed as a single-vendor product up to
 that breaking point. (Unless they fail the execution, or the project
@@ -150,7 +150,7 @@ Your customers and users together are *always* bigger than you are. That
 is the Power of Many. And to a global CSP, every single-vendor project
 company is unnoticeable roadkill.
 
-# TL;DR
+## TL;DR
 
 There are fundamental conflicts between Free, Libre, Open Source
 models's and (hyper-)growth-oriented capitalism's definition of
@@ -158,7 +158,7 @@ success and incentives.
 
 The question is not *if* this will break, but only *when*.
 
-# Quo vadis?
+## Quo vadis?
 
 It is my personal belief - nay, understanding - that we must find and
 utilize ways of sustainably creating and supporting Free, Libre, and
@@ -200,7 +200,7 @@ more sustainability.
 As a society, and also as a software community, we need to reward and
 value collaboration, not divisiveness.
 
-Let's [discuss][twitter].
+Let's [discuss][twitter]!
 
 
 [twitter]:         http://twitter.com/larsmb

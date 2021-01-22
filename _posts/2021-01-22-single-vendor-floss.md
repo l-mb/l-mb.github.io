@@ -8,11 +8,11 @@ categories: meta, floss
 It's been quite a while since I wrote anything on this blog, since
 mostly I've been ranting over on [Twitter][twitter].
 
-But given the current discourse, let's look at single-vendor Free,
-Libre, Open Source projects for a moment. Since many others have also
-already voiced and written down their thoughts, my main goal here is not
-to point out something fundamentally new, but highlight specific
-aspects.
+Given the current discourse, let's look at single-vendor Free, Libre,
+Open Source projects for a moment. Since many others have also already
+voiced and written down their thoughts, my main goal here in voicing my
+own anecdotal perspective is not to point out something fundamentally
+new, but to highlight specific aspects.
 
 # Why Single-Vendor approaches?
 
@@ -22,18 +22,19 @@ Contributor License Agreements (CLA) which allow them to further
 multi-license the code base and enable models such as Open Core or even
 fully proprietary versions?
 
-The goal is to capture the value of the Open Source project as part of
-their company, their business, and their investor/IPO/M&A valuation.
-Free, Libre, Open Source is "just" a means of attracting attention,
-getting visibility more quickly, a hiring benefit, the occasional
-drive-by-contribution from an outsider.
+Now, first I must acknowledge that there are other reasons - the
+"original" Free, Libre, Open Source software licenses such as the GPL
+don't really protect the intended freedoms well in the context of
+hosted, SaaS offerings. The Tragedy of the Commons is, alas, real. As
+are ethical and moral considerations on who uses one's software to what
+end. I do believe there are valid concerns that need to be addressed,
+but I will not cover them here.
 
-(There are also other reasons - the "original" Free, Libre, Open Source
-software licenses such as the GPL don't really protect the intended
-freedoms well in the context of hosted, SaaS offerings. The Tragedy of
-the commons is, alas, real. As are ethical and moral considerations on
-who uses one's software to what end. I do believe there are valid
-concerns that need to be addressed, but I will not cover them here.)
+Their driving goal is to capture the value as part of their company,
+their business, and their investor/IPO/M&A valuation.  Free, Libre, Open
+Source is "just" a means of attracting attention, getting visibility
+more quickly, a hiring benefit, the occasional drive-by-contribution
+from an outsider.
 
 And that works. They attract users, some contributors (excellent for
 recruiting), possibly can demonstrate some conversion to paying
@@ -48,70 +49,94 @@ succeeds.
 I am broadly defining success as reasonably wide-spread adoption and
 utilization. At this point, multiple parties have a vested interest in
 the on-going success of the project, since they've build their own value
-on top or around - that might be a SaaS offering, consulting, training,
-or using it in business contexts, or even home use.
+on top or around - that might be a SaaS offering, consulting,
+training, using it in business contexts, or even just personal use.
 
 The single-vendor needs a sufficiently large portion of these to pay
-them; be that for support, maintenance, additional features, consulting,
-training, certification. And now they're in direct competition with
-a number of their own formerly-cherished community members! Uh-oh.
-This creates a business incentive for competition at lower prices (or,
-in a fictional world, for higher quality).
+them to sustain their own business; be that for support, maintenance,
+additional features, consulting, training, certification. And thus,
+they're in direct competition with a number of their own
+supposedly-cherished community members! Uh-oh. And there is always
+a business incentive for competition to lower prices (or, in a fictional
+world, for higher quality).
+
+## Maintaining the competitive advantage
 
 It's either impossible or very costly (which in profit-maximizing
 capitalism are interchangeable terms) to maintain said competitive edge
-while on equal footing with the other players. Hence, at some point,
-they'll necessarily have to try and imbalance the field. Modifying the
-license, trademarks, patent enforcement, withholding improvements,
-restricting use, we know the playbook.
+while on equal footing with the other players.
 
-Alas, this is a slippery slope - there'll come a point at which this
+Hence, at some point, they will necessarily have to try and imbalance
+the field. Modifying the license, trademarks, patent enforcement,
+withholding improvements, restricting use, increasing the barriers to
+collaboration, not accepting contributions so they can maintain control
+- we know the playbook.
+
+### The inevitable fork in the road
+
+Alas, this is a slippery slope - there will come a point at which this
 creates a sufficient incentive for others to take the last commit before
-they applied the disruptive license change and fork the project. 
+the vendor applied the disruptive license change and fork the project.
 
-(Another outcome is that they switch to a different project, and the
-original mostly withers. Not typically desirable either, since it
-reduces the potential customer base, but hey, those remaining are
-obviously captive.)
+(Another outcome is that folks switch to a different project more to
+their liking, and the original mostly withers. Not typically desirable
+either, since it reduces the potential customer base, but hey, those
+remaining are obviously captive.)
 
 Because for **them** - that project that's the core of the
 single-vendor's business? It's *just* infrastructure. *Their* value lies
-elsewhere. They would (and *will*) benefit from amortizing the cost of
-infrastructure maintenance, development, support across the community
-rather than paying excessive profit margins.
+elsewhere.
 
-For the sake of this argument, I will ignore those that will walk away
-from the project because it now violates the spirit and values of Free,
-Libre, and Open Source projects. Said single-vendor would be negligent
-if they were dismissive of the impact this can and will have, however.
-(Still, they almost always do, because it's not easy to relate to values
-that cannot be expressed in annual returns.) Feeling wronged, ethics,
-and, yes, spite are incredible motivators to create a more successful
-alternative. This will contribute significantly to the consequences - it
-will make it easier for said others to recruit and/or provide them with
-an alternative to switch to.
+They would (and *will*) benefit from amortizing the cost of
+infrastructure maintenance, development, support across the community
+rather than paying someone else's above-market-average profit margins.
+
+### Value-driven consequences
+
+For the sake of this argument, I will ignore those community members
+that will walk away from the project because it now violates the spirit
+and values of Free, Libre, and Open Source projects. Said single-vendor
+would be negligent if they were dismissive of the impact this can and
+will have, however.  (Still, they almost always do, because it's not
+easy to relate to values that cannot be expressed in annual returns.)
+Feeling wronged, ethics, and, yes, spite are incredible motivators to
+create a more successful alternative. This will contribute significantly
+to the consequences - it will make it easier for said others to recruit
+and/or provide them with an alternative to switch to.
 
 # Decision time
 
-A single-vendor project can succeed as a product up to that breaking
-point. (Unless they fail the execution, or the project technically falls
-behind, but I am assuming a moderately successful project here.)
+A single-vendor project can succeed as a single-vendor product up to
+that breaking point. (Unless they fail the execution, or the project
+technically falls behind, but I am assuming a moderately successful
+project here.)
 
-That works if essentially their cost is somewhat limited to paying the
-developers, technical writers, support engineers, etc - the whole point
-of division of labor is, after all, benefitting from specialization.
-One can pay even rather comfortable salaries for these experts; they are
-the means of production. And since economy of scale comes into play as
+If their cost is mostly limited to paying the developers, technical
+writers, support engineers, and reasonable operational costs, this is
+a valid business proposition - the whole point of division of labor is,
+after all, to benefit from specialization.  One can pay even rather fair
+and comfortable salaries. And since economy of scale comes into play as
 overhead is amortized across many, there is some growth potential in
 this.
 
-So, failure according to which metric, you ask? It *cannot* sustain the
+Such models exist - as both dedicated organizations, or as departments
+handling Free, Libre, Open Source within larger businesses.
+
+## Why is this success a failure?
+
+So, failure according to which metric then, you may ask?
+
+Such a model *cannot* deliver, much less sustain, the
 above-market-average profit margins and exponential growth required by
-investors. 
+investors.
+
+It may appear to for a time, but eventually, the market catches up. The
+commoditization is built into Free, Libre, Open Source infrastructure
+much deeper than many other areas.
 
 The trick is to exit before the investors catch on - or be bought by one
 of those companies for whom you're just infrastructure and have your
-business model transformed. If that is too expensive, they'll just
+business model transformed. If that is too expensive, they will just
 - either individually or by coming together - swat your business model
 like an annoying fly.
 
@@ -125,8 +150,7 @@ There are fundamental conflicts between Free, Libre, Open Source
 models's and (hyper-)growth-oriented capitalism's definition of
 success.
 
-(I know, I know - film at eleven, Captain Obvious, where is my surprised
-face, ... Sorry for stating what's clear in the world all around us.)
+The question is not *if* this will break, but only *when*.
 
 # Quo vadis?
 

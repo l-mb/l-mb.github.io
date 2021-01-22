@@ -2,7 +2,7 @@
 layout: post
 title:  "Why Single-Vendor Open Source is attempted, but fails"
 date:   2021-01-21 12:0:00 +0100
-categories: meta, floss
+categories: floss
 ---
 
 It's been quite a while since I wrote anything on this blog, since

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>https://opensourcerer.eu/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/about/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/license/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/privacy/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/tags/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/tags/open-source/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/tags/website/</loc>
+    </url>
+    <url>
+        <loc>https://opensourcerer.eu/welcome-and-intro/</loc>
+        <lastmod>2024-10-24</lastmod>
+    </url>
+</urlset>

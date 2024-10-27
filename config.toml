@@ -5,7 +5,7 @@ base_url = "https://opensourcerer.eu"
 # If you use the npm/node script then all you have to do is set offline = true, and everything else is automatic.
 
 title = "OpenSourcerer.eu"
-description = "Lars Marowsky-Brée's on Free, Libre, and Open Source, Software Engineering, and IT"
+description = "Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT"
 theme = "abridge"
 
 default_language = "en"

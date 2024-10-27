@@ -1,0 +1,37 @@
+{%- extends "abridge/templates/page.html" -%}
+{%- import "macros-bibtex.html" as bibtex -%}
+{%- if false -%}
+
+{% block comments_init %}
+{% set base = "" %}
+{% if page.colocated_path %}
+{% set base = page.colocated_path %}
+{% endif %}
+{% set citations = load_data(path=base ~ page.slug ~ ".bib", format="bibtex", required=false) %}
+{% if not citations %}
+{% set citations = load_data(path=base ~ "references.bib", format="bibtex", required=false) %}
+{% endif %}
+{% endblock comments_init %}
+
+{% block page_footer %}
+
+{% if citations %}
+<pre>
+    {{ citations | json_encode(pretty=true) | linebreaksbr | safe }}
+</pre>
+    <div id="references">
+    {% set has_references = citations.bibliographies | length > 0 %}
+    {% if has_references %}
+        <h2>References</h2>
+        <dl>
+        {% for citation in citations.bibliographies %}
+            {{ bibtex::ref(bibliography=citation,num=loop.index) }}
+        {% endfor %}
+        </dl>
+    {% endif %}
+    </div>
+{% endif %}
+    {{- macros::footer(page=page, config=config) }}
+{% endblock page_footer %}
+{%- endif -%}
+

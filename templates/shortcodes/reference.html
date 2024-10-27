@@ -1,0 +1,19 @@
+{% set base = "" %}
+{% if page.colocated_path %}
+{% set base = page.colocated_path %}
+{% endif %}
+{% set citations = load_data(path=base ~ page.slug ~ ".bib", format="bibtex", required=false) %}
+{% if not citations %}
+{% set citations = load_data(path=base ~ "references.bib", format="bibtex", required=false) %}
+{% endif %}
+{% if citations %}
+    {% for bib in citations.bibliographies %}
+        {% if bib.citation_key == key %}
+            {% set_global num = loop.index %}
+            {% set_global reftitle = bib.tags.title %}
+        {% endif %}
+    {% endfor %}
+    <a href="#bibref-{{ key }}" class="ref-link" title="{{ reftitle }}">[{{ num | default(value="#noref") }}]</a>
+{% else %}
+<b>Sucks to be me</b>
+{% endif %}

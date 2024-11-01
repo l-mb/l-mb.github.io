@@ -32,21 +32,6 @@ environmental implications and contexts; I consider the attempts to
 "keep politics out of tech" to be deeply flawed, misguided, and
 something usually only very privileged people can afford.
 
-## Feedback appreciated!
-
-Feedback on factual inaccuracies on this site is as appreciated as are
-suggestions for further material or directions to look into. 
-
-For public discourse, consider [my Mastodon
-profile](https://mastodon.online/@larsmb) on the Fediverse.
-
-I would like to *specifically* express my appreciation for feedback that
-shows gaps in my articles as they relate to Diversity and Inclusion.
-While I strive to make that a priority, I have sometimes found that - as
-a non-native speaker in particular who has learned certain words as
-technical terminology only - I was not aware that certain choices were
-exclusionary or discriminatory.
-
 # About Me
 
 My name is Lars Marowsky-Brée, and I have been dabbling with computers

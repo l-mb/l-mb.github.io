@@ -65,16 +65,19 @@ engineer at heart - but it's impossible to do proper engineering without
 considering the trade-offs and constraints.
 
 I'm currently based in Berlin, use *he/they* pronouns, and besides
-technology, have an obsession with food and reading way too much.
+technology and its multi-dimensional impacts, have an obsession with
+food and tend towards an excessive amounts of reading.
 
 At the footer of every page, there's a plethora of ways to contact me in
 case you have any questions, feedback, or suggestions about this site's
-content or anything else. I'm also grateful if you let me know if
-anything I wrote was actually useful to someone else!
+content.
+
+I'm also grateful if you let me know if anything I wrote was actually
+useful to someone else!
 
 # Disclaimers
 
-## Personal Content Only
+## Personal Content
 
 In no way should content on this site be attributed to, or seen as
 official positions or statements of my past, current, or future

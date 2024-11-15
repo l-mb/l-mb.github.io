@@ -9,11 +9,12 @@ tags = ["Open Source", "Policy"]
 # TL;DR
 
 Free, Libre, and Open Source freedoms, when treated as dogma, do harm.
-To truly serve our values, we must not only do more but differently.
+To truly serve our values, the "open" software community must not only
+do more but differently.
 
 # Introduction
 
-In 2012, I spend May Day (of all days) as a speaker and attendee at the
+In 2012, I spent May Day (of all days) as a speaker and attendee at the
 Linux Foundation's Enterprise End User Summit in New York, hosted at the
 New York Stock Exchange. On my way to the venue, we had to pass through
 police cordons and, theoretically, protesters. Remember, the Occupy Wall
@@ -50,33 +51,36 @@ progress.
 
 # The loss of innocence
 
-However, I am also no longer sixteen. I've build my career on Free,
+However, I am also no longer sixteen. I've built my career on Free,
 Libre, and Open Source Software; I've seen people implement
 bait-and-switch schemes on licensing, CLAs, exploitative practices that
-only consume and never give anything back or even undercut those who
-do (the trick to get really rich in capitalism is to exploit
-externalities until - if - regulation catches up with you), or pay the
-maintainers peanuts or nothing. (We have all seen the famous XKCD
-comic.)
+only consume and never give anything back or even undercut those who do
+(the trick to get really rich in capitalism is to exploit externalities
+until - if - regulation catches up with you), or pay the maintainers
+peanuts or nothing. (We have all seen [the famous XKCD
+comic](https://xkcd.com/2347/).)
 
-Moreso, I've also seen quite a few political turns and shifts, not all
+More so, I've also seen quite a few political turns and shifts, not all
 of them progressive, but more and more reactionary backlashes. I've seen
 how big tech has contributed and profited from this. I know exactly who
 _also_ wants big data systems.
 
-And I don't want my work to enable those who are not merrily neutral and
-where we have complex nuanced differences of opinion and taste or
-reconcilable matters of policy (expecting perfect alignment on
-everything would, indeed, be unrealistic and detrimental; we need some
-resilience in the face of differences) - but a truly fundamental
-systemic incompatibility.
+Expecting perfect alignment on everything would, indeed, be unrealistic
+and detrimental; we need _some_ resilience and elasticity in the face of
+differences. With those who are somewhat neutral and where we have
+complex nuanced differences of opinion and taste or reconcilable matters
+of policy, sure. _The truth is rarely pure and never simple._
+
+But I do not want my work to enable those with whom I have a truly
+fundamental systemic incompatibility; such as whose personhood is valid,
+whose love is valid, whose choices are valid.
 
 # Free and Open Source Software
 
-I still believe that Free and Open Source Software are much better than 
-proprietary offerings for my values.
+I still believe that Free, Libre, and Open Source Software is much more
+compatible with my values than proprietary modes.
 
-But these principles are not just the bare minimum: they actively 
+But these principles are not just the bare minimum: they actively
 constrain our ability to safeguard our values.
 
 ## Unfettered, unrestricted
@@ -104,14 +108,18 @@ allow ethical considerations to affect the use and distribution of
 software when that might impede business. [I have written about this 
 recently][4], as have many others.)
 
-We must ask: can freedom go too far? This question is often deemed
-controversial and to have a definitive answer ("No"), especially by
-those who conflate freedom of speech with freedom from accountability.
+We must ask: can a freedom go too far? As seen above, the FSF and OSI
+have the same answer as those who conflate freedom of speech with
+freedom from accountability.
 
-And if only it were so simple; we could focus on the nerdy intricacies 
-of our code and lose ourselves in a binary world we can control, rather 
-than having to consider what the tools we build enable, and whether or 
-not we may be accountable; if not legally, but to ourselves.
+And if only it were so simple; we could focus on the nerdy intricacies
+of our code and lose ourselves in a world we can control; rather than
+having to consider what the tools we build enable, and whether or not we
+may be accountable; if not legally, but to ourselves.
+
+Of course, their position is limited externally already; obviously, it
+does not trump applicable law. We just don't get to add additional
+friction and constraints.
 
 If, as a software developer or contributor, I can't formally forbid my
 work to be used for mass murder without being excluded from the
@@ -120,7 +128,26 @@ strange?
 
 We see here a variant of the paradox of tolerance.
 
-## Endeavors for more ethical terms
+### Tangent: license compatibility
+
+One reason why this is opposed is that a proliferation of terms and
+conditions would make it difficult to determine whether multiple
+licenses are compatible and the works can be combined in certain ways.
+
+Everyone working on Free, Libre, Open Source software, myself included,
+will concur with this. Most software engineering degrees fail to prepare
+us for arguing about what is or is not a derivative work, an aggregate,
+fair use, or the intricacies of how GPL, LGPL, AGPL, Apache, Mozilla,
+MIT, BSD differ, often in multiple versions. I suspect many of us had
+_fun_ calls with lawyers that we could have done without.
+
+This is, however, a flimsy reason to insist on doing nothing.
+
+Modular systems, compatibility matrices, formalizing the most common
+terms are possible and, at this point, honestly would not make the
+situation all that much more complicated.
+
+## Endeavours for more ethical terms
 
 There are already efforts to address this, such as the [Hippocratic 
 License for Open Source Communities][5], which strives to align 
@@ -136,14 +163,14 @@ maximization, or the military-surveillance complex.
 
 Unions, cooperatives, public sector institutions, non-profits, hobbyist 
 individuals or communities, and even ethically-minded businesses could 
-lead the way in trialing and adopting such terms.
+lead the way in trialling and adopting such terms.
 
 # Freedom of Association
 
 However, there is something else you - we - can do: we don't have to
-associate with them.
+associate with those who endanger our values.
 
-Most of our communities have code of conducts and contributor guidelines
+Most of our communities have codes of conduct and contributor guidelines
 already. Let's strengthen those. Take a stand.
 
 We have the right to refuse interactions, contributions, patches,
@@ -166,14 +193,20 @@ Be however patient in the face of imperfection. People will try and fall
 short; you, me, them. We exist in the world, and even when we change it,
 change is not instant.
 
+It should come as no surprise that this, too, is already externally
+restricted via national and international law and regulations, see for
+example [the Linux kernel][8]. The governments will absolutely have
+their say; the idea that everyone is invited into every group is,
+frankly, naïve.
+
 # Free and Open Source won't save us
 
 Free and Open Source as they are and by themselves do not lead to a
 fairer world.
 
-We need to evolve beyond those rigid and suppsedly "neutral" approaches;
-it is not just commercial exploitation which open-washes our communities
-(and where I believe that the [Software Freedom
+We need to evolve beyond those rigid and supposedly "neutral"
+approaches; it is not just commercial exploitation which open-washes our
+communities (and where I believe that the [Software Freedom
 Conservancy](https://sfconservancy.org/) comes out ahead in their stance
 over OSI's pragmatism), but viewing software in isolation from the rest
 of society would be reductionist. To insist on "neutrality" is in itself
@@ -214,6 +247,7 @@ took not to disappear on a side quest of citation mgmt in Zola -->
 {{ bib(num=5, desc="Organization for Ethical Source, “The Hippocratice License”. Accessed: 2024-11-15", url="https://firstdonoharm.dev/") }}
 {{ bib(num=6, desc="Whelchel (1986), “Is Technology Neutral?”, IEEE. Accessed: 2024-11-15", url="https://ieeexplore.ieee.org/document/5010049") }}
 {{ bib(num=7, desc="OSI (2024), “Frequently Asked Questions”. Accessed: 2024-11-15", url="https://opensource.org/faq#evil") }}
+{{ bib(num=8, desc="Corbet (2024), “Several Russian developers lose kernel maintainership status”, LWN.net. Accessed: 2024-11-15", url="https://lwn.net/Articles/995186/") }}
 
 <!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->
 <!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->

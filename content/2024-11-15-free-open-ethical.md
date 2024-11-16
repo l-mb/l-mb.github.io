@@ -128,6 +128,28 @@ strange?
 
 We see here a variant of the paradox of tolerance.
 
+### Digression: Who are "we"
+
+In this text, I've referenced "us" repeatedly, without ever defining it.
+
+I think that is a question worth exploring, because "the" Free, Libre,
+and Open Source community is made up of many diverse individuals and
+groups with different backgrounds, motivations, goals, beliefs, ethics;
+_Open_ vs _Free_ is an example of overlapping but significantly
+diverging principles that yet mostly are able to join up for a greater
+goal.
+
+This would be even more prominent if we exposed more of our beliefs and
+values; we would see more fractures in "our" groups. Who do we really
+want to be "we" with?
+
+There is no single _we_, not one truly unified community. That is part
+of the pretence we need to go beyond, even if the shorthand is useful in
+communication. "We" are individuals with compatible enough shared goals
+and values forming groups to further those, and then compatible enough
+groups joining up to form larger alliances. There will always be some
+friction.
+
 ### Tangent: license compatibility
 
 One reason why this is opposed is that a proliferation of terms and
@@ -227,13 +249,11 @@ Amorality in the face of injustice is immorality. [Technology is not
 neutral][6].
 
 Crafting perfect terms and licenses may well be impossible, but that is
-no excuse for inaction. Instead, we must experiment, refine, and adopt
-frameworks that align technology with our ethics.
+no excuse for complete inaction. Instead, we must experiment, refine,
+and adopt frameworks that align technology with our ethics.
 
 Last week, I visited the German Museum of Technology. One exhibit is a
 Hollerith tabulating machine.
-
-Choose.
 
 # Sources
 

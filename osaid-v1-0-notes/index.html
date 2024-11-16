@@ -1,0 +1,441 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <script src="https://opensourcerer.eu/js/theme_light.min.js" integrity="sha384-4c2QSBFoIWtWdjHBS/+xfcnPBuCo/9yN1c218v1U+4D9Y+AjEB+sT628EGjjbVtE"></script>
+  <link rel="stylesheet" href="https://opensourcerer.eu/abridge.css?h=50d66000e7b82247b00c" />
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="base" content="https://opensourcerer.eu" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="theme-color" content="#333333" />
+  <meta name="msapplication-TileColor" content="#333333" />
+  <link rel="manifest" href="https://opensourcerer.eu/manifest.min.json" />
+  <link rel="mask-icon" href="https://opensourcerer.eu/favicon.svg" color="#ff9900" />
+  <link rel="icon" type="image/svg+xml" href="https://opensourcerer.eu/favicon.svg" />
+  <link rel="alternate" type="application/atom+xml" title="OpenSourcerer.eu Atom Feed" href="https://opensourcerer.eu/atom.xml" />
+  <meta name="robots" content="index, follow" />
+  <meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <meta name="bingbot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+  <title>OSI's Open Source AI Definition v1.0 | OpenSourcerer.eu</title>
+  <meta name="author" content="Lars Marowsky-Brée" />
+  <meta name="copyright" content="OpenSourcerer.eu" />
+  <meta name="description" content="Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT" />
+  <link rel="canonical" href="https://opensourcerer.eu/osaid-v1-0-notes/" />
+  <meta name="keywords" content="Open Source, Free Software, Digital Sovereignity, Software Engineering, Software Development" />
+  <script defer src="https://opensourcerer.eu/js/abridge_nopwa.min.js?h=da86cb0a199b3ccbdff1" integrity="sha384-vIpObQoso10COS540XqkYFIjE+P0OwczzYDnC2D28QZ8O6slixwCc+F1xxYZKvFr"></script>
+  <noscript><link rel="stylesheet" href="https://opensourcerer.eu/nojs.css" /></noscript>
+</head>
+<body>
+  <header>
+    <nav>
+      <div><big><a href="https://opensourcerer.eu" title="OpenSourcerer.eu">OpenSourcerer.eu</a></big></div>
+      <div>
+
+        <div>
+          <ul><li><a class="s110" href="https://opensourcerer.eu/about/"> About </a></li><li><a class="s110" href="https://opensourcerer.eu/contact/"> Contact </a></li><li><a class="s110" href="https://opensourcerer.eu/tags/"> Tags </a></li><li><i type="reset" id="mode" class="js svgs adjust"></i></ul>
+        </div>
+
+        <div>
+          <div>
+            <form autocomplete=off class="js" name="goSearch" id="searchbox">
+              <div class="searchd">
+                <input id="searchinput" type="text" placeholder="Search" title="Search" />
+                <button type="submit" title="Search" class="svgs svgm search"></button>
+              </div>
+              <div class="results"><div id="suggestions"></div></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+    <div class="desc">Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT</div>
+    <hr />
+  </header>
+  <main>
+    <article>
+      <h1><a href="https://opensourcerer.eu/osaid-v1-0-notes/">OSI&#x27;s Open Source AI Definition v1.0</a></h1>
+
+      <span class="s95"> Lars Marowsky-Brée <span class="rpad"></span> November 02, 2024 <span class="rpad"></span> #<a href="https://opensourcerer.eu/tags/open-source/">Open Source</a>  #<a href="https://opensourcerer.eu/tags/policy/">Policy</a>  #<a href="https://opensourcerer.eu/tags/ai/">AI</a> </span>
+
+    
+
+
+<h1 id="introduction"><a class="zola-anchor" href="#introduction" aria-label="Anchor link for: introduction">Introduction</a></h1>
+<p>Artificial Intelligence (AI) and Machine Learning (ML), such as
+Generative AI and Large Language Models (LLMs), have, for better or
+worse, a growing impact in shaping critical societal outcomes; from
+healthcare via finance to public safety in general (consider
+self-driving cars) - as well as in our every day lives as individuals.</p>
+<p>Without openness and transparency, AI could perpetuate unchecked biases
+that shape public policy, healthcare, and legal outcomes. Without
+openness and the ability to modify the systems that influence and run
+our lives, we are robbed of freedom and agency.</p>
+<p>While the jury is still out whether they can deliver on their promises
+in the real world, there's no denying that AI/ML/LLM-based systems are
+replacing, or at the very least augmenting, traditional Information
+Technology systems.</p>
+<p>For the traditional IT world, we have now familiar and highly successful
+paradigms of Free, Libre, and Open Source Software that strive to ensure
+our rights and abilities to not just <strong>Use</strong>, but also to <strong>Study</strong>,
+<strong>Modify</strong>, and <strong>Share</strong> them.</p>
+<p>For individuals and society at large not to be at the questionable mercy
+of inscrutable blackboxes (often proprietary, and under the control of
+for-profit businesses), such rights are fundamental to maintain our
+digital sovereignty.</p>
+<p>If our digital human rights are not sufficient arguments, Free, Libre,
+and Open Source Software Systems nowadays provide <a rel="noopener" target="_blank" title="M. Hoffmann, F. Nagle, and Y. Zhou, “The Value of Open Source Software,” SSRN Journal, 2024." href="https://www.ssrn.com/abstract=4693148">inconceivable value
+for the global economy</a>.</p>
+<p>Thus arises the necessity to protect those freedoms in AI/ML-driven
+systems.</p>
+<p>The <a rel="noopener" target="_blank" href="https://opensource.org/">Open Source Initiative (OSI)</a> has just
+released the first version of their <a rel="noopener" target="_blank" title="Open Source Initiative, “The Open Source AI Definition – 1.0”. Accessed: 2024-11-02" href="https://opensource.org/ai/open-source-ai-definition">Open Source AI Definition
+(OSAID)</a> and its associated <a rel="noopener" target="_blank" title="Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02" href="https://hackmd.io/@opensourceinitiative/osaid-faq">Frequently Asked Questions (FAQ)</a>.</p>
+<p>The OSI declares themselves to the <em>"the authority</em> that defines Open
+Source", and <em>the steward</em> of the <a rel="noopener" target="_blank" href="https://opensource.org/definition/">Open Source
+Definition</a>. It is fair to say that
+they are one of the most influential organizations in this space, with
+broad impact on the IT industry, communities, and political policy.</p>
+<p>This means we must hold OSI's release of version one point zero, which
+is no longer declared a draft asking for comments but for active
+endorsement, to a rather high standard and critically evaluate whether
+it manages to uphold and protect the values behind Open Source Software
+(that they do not wish to uphold the values of Free Software in full we
+already know), and what might be needed to address any gaps or misses.</p>
+<p>This is not the first such writing, and I want to give explicit
+acknowledgement to the sources and authors referenced at the end for
+influencing my thinking. The tenor of the positions from the <a rel="noopener" target="_blank" title="Free Software Foundation, “FSF is working on freedom in machine learning applications”. Accessed: 2024-11-02" href="https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications">FSF</a> or
+the <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02" href="https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/">Software Freedom Conservancy's aspirational stance</a>, but also
+other <a rel="noopener" target="_blank" title="S. Vaughan-Nichols, “We have an official open-source AI definition now, but the fight is far from over”, ZDNET. Accessed: 2024-11-02" href="https://www.zdnet.com/article/we-have-an-official-open-source-ai-definition-now-but-the-fight-is-far-from-over/">respected</a> <a rel="noopener" target="_blank" title="tante, “Does Open Source AI really exist?”. Accessed: 2024-11-02" href="https://tante.cc/2024/10/16/does-open-source-ai-really-exist/">individuals</a>, clearly shows that advocates
+expect the OSI to do better.</p>
+<h1 id="the-positive-intentions-and-achievements"><a class="zola-anchor" href="#the-positive-intentions-and-achievements" aria-label="Anchor link for: the-positive-intentions-and-achievements">The Positive Intentions and Achievements</a></h1>
+<p>OSI states to have engaged with diverse stakeholders - who will not
+always have had perfectly aligned interests and positions. Anyone who
+has ever worked on any sort of large collaborative definition effort
+recognizes the impossibility to achieve everyone's goals without often
+painful compromises. Especially when global stakeholders from all across
+the industry meet ethical and moral concerns.</p>
+<p>It is always easy to criticize someone else's work - after it has been
+published. We would not be having this discourse right now if OSI
+hadn't, and it behoves us to acknowledge this, too, despite criticism.</p>
+<p>Thus, providing an initial framework for "Open Source AI" and addressing
+a previously largely undefined space is an important step that I do not
+wish to discount. OSI is providing a baseline to argue on.</p>
+<p>The key goal of OSAID is not merely to address the "traditional" source
+code used to build, train, run, and operate AI/ML systems; it would have
+been easy for OSI to limit themselves to this aspect which most closely
+aligns with their original scope and experiences. Instead, it recognizes
+and aims to cover the multiple components that together form an
+AI/ML-based system.</p>
+<h2 id="software-source-code"><a class="zola-anchor" href="#software-source-code" aria-label="Anchor link for: software-source-code">Software Source Code</a></h2>
+<p>Requiring the "complete" software source to be made available
+under an OSI-approved license is the obvious application of FLOSS
+principles to AI systems. This is fairly broadly phrased, including even
+supporting libraries and the model architecture.</p>
+<p>It would be nice if this included explicit requirements for the (kernel)
+drivers as well, and there's always the question where "software" ends
+for GPUs and other hardware components that implement quite complex
+firmware. Or whether this covers all the layers through which a user
+interacts with the system in the end (and which might further process
+the results).</p>
+<p>This is indeed the minimal standard any "Open Source AI" system must
+meet. Though if the scope was limited to this, I'd argue we have not
+gone beyond anything previously sufficiently covered.</p>
+<p>So how successful is OSI's address of the new components?</p>
+<h1 id="critique"><a class="zola-anchor" href="#critique" aria-label="Anchor link for: critique">Critique</a></h1>
+<h2 id="the-data"><a class="zola-anchor" href="#the-data" aria-label="Anchor link for: the-data">The Data</a></h2>
+<p>Positively, the OSAID <em>does</em> outline guidelines that clearly make
+systems that comply with them more "open" than those that do not.</p>
+<p>Describing the data used in fair detail, its provenance, the sourcing,
+the processing, labelling, whether public or from <em>third parties
+(including for fee)</em> <sub>(which is a more polite way to say proprietary
+and non-free)</sub> is a significant step up from those AI/ML systems
+where we have no idea.</p>
+<p>However, here is also where OSAID falls crucially, critically short of
+its stated goal: it does not even <em>recommend</em> that the training data
+should be free/open by default, much less <em>require</em> it.</p>
+<p>Unlike traditional software, AI/ML systems derive their <strong>main</strong> logic
+and function from training on their <em>source</em> data. Not providing those
+denies some of the core freedoms and rights.</p>
+<p>Yes, traditional systems also use external assets (such as media) that
+is not always governed by the same open/free rights as the source code,
+but it was still possible to inspect how they processed them. (And it is
+worth pointing out that some voices would not consider even such
+systems "open" if they had critical non-open/non-free dependencies.)
+This data is usually what they operate <em>on</em> or what configures the
+system, not the core of the system <em>itself</em>.</p>
+<p>The <a rel="noopener" target="_blank" title="Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02" href="https://hackmd.io/@opensourceinitiative/osaid-faq">OSAID FAQ</a> elaborates that not all data <em>can</em> be free or open,
+and perhaps not <em>everywhere</em> - such as, say, confidential medical data,
+or situations where legislation differ globally. And that is a clearly
+valid. <a rel="noopener" target="_blank" title="Free Software Foundation, “FSF is working on freedom in machine learning applications”. Accessed: 2024-11-02" href="https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications">Even the Free Software Foundation concedes this aspect,</a>
+arguing that nonfree AI/ML systems could still be just.</p>
+<p>Yet - to be able to assess whether a system was trained for a particular
+situation, whether its training data contains any relevant biases that
+might produce discriminatory results, that can <em>only</em> be reasonably done
+if access to this data is open.</p>
+<h4 id="osi-approved-terms"><a class="zola-anchor" href="#osi-approved-terms" aria-label="Anchor link for: osi-approved-terms">OSI-approved terms</a></h4>
+<p>Another shortcoming for OSAID to be truly meaningful is that, for even
+the limited "data information" we get as well as the model parameters
+and configuration settings, it specifies only that they "shall be made
+available under <em>OSI-approved terms</em>".</p>
+<p>Which, the FAQ elaborates somewhat unhelpfully, does <strong>not</strong> (yet?)
+refer to any defined legal mechanisms, and can thus at best be seen as
+an aspirational statement.</p>
+<p>A typical OSI-approved license that would govern source code does not
+directly apply, since data is not software as such in the eyes of the
+law, courts, and international treaties. Yet, the Linux Foundation has
+developed <a rel="noopener" target="_blank" title="The Linux Foundation, “Community Data License Agreement - Sharing, Version 1.0”. Accessed: 2024-11-02" href="https://cdla.dev/sharing-1-0/">terms that might serve</a>, and for the OSI to suggest not
+anything here is disappointing.</p>
+<p>For this to supposedly govern the key components beyond software source
+code (which, I might remind the reader, is the entire <em>point</em>) it is far
+too vague.</p>
+<h3 id="a-description-of-the-data-is-not-the-data"><a class="zola-anchor" href="#a-description-of-the-data-is-not-the-data" aria-label="Anchor link for: a-description-of-the-data-is-not-the-data">A description of the data is not the data</a></h3>
+<p><strong>To summarize:</strong> for the components that go beyond traditional software
+systems, the OSAID does neither require their full openness <em>nor</em>
+provide concrete guidance.</p>
+<h2 id="limited-transparency-and-ability-to-audit"><a class="zola-anchor" href="#limited-transparency-and-ability-to-audit" aria-label="Anchor link for: limited-transparency-and-ability-to-audit">Limited Transparency and Ability to Audit</a></h2>
+<p>A key benefit of Open Source Software is the transparency to inspect and
+audit a system's behaviours, decisions, actions through its source
+code.</p>
+<p>This must imply access to all relevant components of our digital
+systems, notably the training data.</p>
+<p>This is crucial for individuals and society to understand the systems
+they're interacting with or even controlled by. We must be able to
+discover biases of all kinds - non-representative data sets,
+discriminatory data, lack of coverage for critical scenarios, or even
+intentional data manipulation that introduces malicious exploits.</p>
+<p>Running experiments on the resulting models remains necessary ("has the
+system learned the intended correlations"), but not sufficient. It is
+already not feasible to thoroughly test traditional software; it is
+similarly impossible to try and test a system whose points of
+reference are unknown and opaque.</p>
+<p>Not spotting and correcting these may result in reproducing gender- or
+ethnic-bias in generated imagery. It could be used to manipulate
+financial decisions. In scenarios such as healthcare, policing, or
+autonomous vehicles, it might prove fatal.</p>
+<h4 id="hidden-data-hidden-exploitation"><a class="zola-anchor" href="#hidden-data-hidden-exploitation" aria-label="Anchor link for: hidden-data-hidden-exploitation">Hidden data, hidden exploitation?</a></h4>
+<p>As pointed out in <a rel="noopener" target="_blank" title="tante, “Does Open Source AI really exist?”. Accessed: 2024-11-02" href="https://tante.cc/2024/10/16/does-open-source-ai-really-exist/">this blog article by tante</a>, there is another
+reason to want to keep the training data secret, beyond valid privacy
+and safety concerns. Not just from society, but also competitors, or
+legitimate copyright holders. (The large ones; the small ones stand no
+chance against the offenders anyway.)</p>
+<p>Namely: the data was not, in fact, sourced in compliance with all legal
+and regulatory obligations, or at least is severely ethically or morally
+contentious.</p>
+<p>The blog raises the rather plausible claim that <em>all</em> large data sets
+are thus contaminated.</p>
+<p>That is <em>significantly</em> easier to hide behind a mere "description" of
+the data or a barrier with contractual clauses attached, plus anyone
+able to pay your high fee is likely similarly compromised. This saves
+the companies from both public outrage and, worse, penalty payments or
+regulatory fines.</p>
+<p>tante also further explores this theme, which I highly recommend you
+read and think through; even though I don't necessarily agree with the
+final conclusion: the conflict between Free, Libre, and Open Source
+values and our rights versus profit-maximizing and exploitative
+business models, aka un- or under-regulated capitalism with shareholder
+primacy and venture capital, is very real.</p>
+<p>This aspect is particularly ironic given that there's suspicion that a
+significant portion of AI/ML/LLM systems intended to assist with
+software development and code generation are, indeed, trained on data
+including code licensed under Free, Libre, and Open Source terms (or,
+e.g., non-code assets that are governed by Creative Commons requiring
+attribution and/or explicitly excluding commercial use) and might be
+going to significant lengths to obscure that in their output.</p>
+<p>This is impossible to tell if all you got was an "Open Source"
+Model/Weights (we cannot reverse the training process and make strong
+assertions about the training data from the resulting model), or when
+you can't truly inspect the source data. Shouldn't an "Open Source AI"
+go to great lengths to explicitly safeguard the rights and shared values
+of the Open Source Community?</p>
+<h2 id="modifying-and-sharing"><a class="zola-anchor" href="#modifying-and-sharing" aria-label="Anchor link for: modifying-and-sharing">Modifying and Sharing</a></h2>
+<p>In my opinion, the rights to Modify and Share are slightly less of a
+priority in the holistic context of this critique (since they'd likely
+also be resolved by addressing the core criticisms), but nonetheless
+necessary. Again, these are greatly hindered by the weak requirements
+and rights provided.</p>
+<p>Yes, models can be iteratively trained (depending on what "OSI-approved
+terms" end up requiring), and that allows certain influences on their
+behaviours. But that's not the same as the ability to rebuild or retrain
+another, modified model.</p>
+<p>Yes, this also needs to acknowledge that the training data can be huge;
+not mere gigabytes, but exabytes. And that the hardware resources and
+power requirements to train a model can be similarly vast. Not everyone
+can aim to reproduce everything. But we also assume that for FLOSS in
+general.</p>
+<p>Still: for an "Open Source AI" definition to provide so little guidance
+on how to actually modify and share those modifications fails to address
+half of the Four Freedoms.</p>
+<h2 id="risk-of-open-washing-undermining-open-source"><a class="zola-anchor" href="#risk-of-open-washing-undermining-open-source" aria-label="Anchor link for: risk-of-open-washing-undermining-open-source">Risk of Open-Washing - Undermining "Open Source"</a></h2>
+<p>Why, in the light of all this, then the insistence to define such a
+seemingly comprehensive term as "Open Source AI"?</p>
+<p>OSI does not allow calling something "Open Source Software" if it just
+comes with a description of what the source code looks like and where
+you can pay for access to it.</p>
+<p>If the only component of the system that is fully "Open Source" is the
+software one, we should rather call this an "AI/ML system provided by
+Open Source Software".</p>
+<p>This could lead to (further) undermining of the value of "Open Source"
+to individuals and society, and in fact allow companies to use the
+marketing branding of "Open Source AI" while, in fact, continuing
+business as usual.</p>
+<p>Unfortunately, the Free, Libre, Open Source Software community has a
+history with such term dilution: "Open Source Software" is a more
+industry-pleasing alternative to "Free Software"; and calling
+less-protective licenses "more permissive" was a stroke of marketing
+genius for capitalist-value-extraction. (Some of the history is
+referenced to in the <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02" href="https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/">SFC blog post</a>.)</p>
+<h4 id="superficial-marketing-term"><a class="zola-anchor" href="#superficial-marketing-term" aria-label="Anchor link for: superficial-marketing-term">Superficial marketing term?</a></h4>
+<p>The additional demands placed on companies to use the new label are not
+onerous: it is already the default for most AI/ML software development
+and in many other areas of IT, given the clear economical benefits and
+marketing value.</p>
+<p>Describing the data sources is something a few regulatory efforts (see
+next section) already request, and in line with the general move towards
+strongly documented supply-chains and bills of materials.</p>
+<p>From a commercial perspective, a superficial definition is preferable to
+one with teeth, since it allows for an easy marketing win: another
+positive label to stick on the box.</p>
+<p>But there are possibly additional benefits - from a commercial
+perspective, not necessarily from an individual and societal one:</p>
+<h4 id="potential-implications-for-public-policy-and-regulation"><a class="zola-anchor" href="#potential-implications-for-public-policy-and-regulation" aria-label="Anchor link for: potential-implications-for-public-policy-and-regulation">Potential implications for public policy and regulation</a></h4>
+<p>The <a rel="noopener" target="_blank" title="European Parliament and Council, “Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations”, Accessed: 2024-11-02" href="http://data.europa.eu/eli/reg/2024/1689/oj/eng">European Union's Artificial Intelligence Act</a> outlines certain
+transparency requirements for AI systems. However, it also lowers
+certain standards for "free and open license GPAI models".</p>
+<p>It is not inconceivable that a company might claim compliance with the
+OSAID to benefit from these reduced requirements, bamboozling policy
+makers and public decision makers by using a term defined by a respected
+industry organization.</p>
+<p>This demonstrates the need for a visionary definition that is a truer
+representation of Free, Libre, and Open values - and those of our open
+and democratic societies -, and one that is harder to subvert.</p>
+<h1 id="tl-dr"><a class="zola-anchor" href="#tl-dr" aria-label="Anchor link for: tl-dr">TL;DR</a></h1>
+<p>The Open Source AI Definition v1.0 claims to set out to address the need
+for a definition of "Open Source" in the context of AI/ML systems; but
+it falls critically short, with potentially broad implications.</p>
+<p>As it stands, I can only conclude that "Open Source AI" is a somewhat
+rushed marketing effort that does not actually deliver on what I would
+expect or what I believe society needs for digital sovereignty and
+safety. Much less our individual freedoms and rights, and further erodes
+the proclaimed values.</p>
+<p>A less charitable interpretation might be that the industry wanted a
+<del>lobbying</del> pragmatic organisation to produce - and get endorsements
+for to make it appear widely accepted - a weaker definition ahead of
+public discourse and political regulation defining "our" requirements,
+thereby shaping and steering the discourse in their commercial
+interests. While I would not accuse any specific individual involved, we
+need to be mindful of how this discourse is now primed.</p>
+<p>Applications that have valid reasons for not making their sources
+publicly accessible exist; data privacy around personal information and
+medical data come to mind. For these systems to be just and aligned with
+our (digital) human rights, they may not be able to be fully "Open
+Source"; they then should not be called by this term. This is a tricky
+but quite feasible balance to maintain and regulate, and they can still
+be required to be reviewed by appointed and chartered experts; this is
+not a new concept.</p>
+<p>Such valid concerns should not allow more common scenarios to take
+advantage of them for their for-profit goals and marketing, and to lower
+our baseline standards for openness transparency.</p>
+<p>We must protect the value of the "Open Source" term (such as it is).</p>
+<p>Given the speed at which AI/ML is adopted into critical infrastructure
+and thus the urgent need to ensure its compatibility with our values,
+<em>now</em> is the time to set our direction; we cannot afford to rush this to
+serve only industry stakeholders' needs.</p>
+<h1 id="where-to-next"><a class="zola-anchor" href="#where-to-next" aria-label="Anchor link for: where-to-next">Where to next</a></h1>
+<p>We need to create a nuanced and differentiated position beyond what
+OSI's OSAID delivers today. My personal highest hope is for <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02" href="https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/">the efforts
+and aspirations of the Software Freedom Conservancy</a>, who are well
+respected, with a strong voice and history of upholding principled
+positions.</p>
+<p>(And if you can, consider <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02" href="https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/">supporting Bradley M. Kuhn on the OSI Board
+of Directors</a>. Whether OSI itself can be swayed or not is up for
+debate; at the very least, we need to ensure their respective position
+and background in "the community" (such as it exists) is better
+understood by all.)</p>
+<p>While it would be great if all of this could indeed be wrapped in a
+single term, recognizing the complexity of the real world might require
+addressing Open Data, Open Source, and Open Weights separately, or
+perhaps with multiple tiers per component. A <em>truly</em> open and just
+system would also need to somehow address the resource requirements;
+freedoms must be exercisable in reality.</p>
+<p>This could come together under the broad umbrella of "Open Source AI" in
+the end; but when used without further qualification, this must at least
+default to real openness for all covered components.</p>
+<p>I hope that the currently on-going dialogue in the community, industry,
+media, as well as amongst advocates, researchers, ethicists, and policy
+makers contributes to this effort.</p>
+<p>Please raise your own voice in demanding <em>fully</em> open AI/ML systems
+wherever possible and not just where commercially convenient.</p>
+<p>We might see an improved <em>Open Source AI Definition, Version 2.0</em>. Or
+need to adopt another organization's guidebook, if OSI keeps their focus
+on <del>industry palatability</del> pragmatism.</p>
+<h1 id="sources"><a class="zola-anchor" href="#sources" aria-label="Anchor link for: sources">Sources</a></h1>
+<!-- Don't come at me how ugly this is, you know how much willpower it
+took not to disappear on a side quest of citation mgmt in Zola -->
+<ul>
+<li>[1]: <a rel="noopener" target="_blank" title="S. Vaughan-Nichols, “We have an official open-source AI definition now, but the fight is far from over”, ZDNET. Accessed: 2024-11-02" href="https://www.zdnet.com/article/we-have-an-official-open-source-ai-definition-now-but-the-fight-is-far-from-over/">S. Vaughan-Nichols, “We have an official open-source AI definition now, but the fight is far from over”, ZDNET. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[2]: <a rel="noopener" target="_blank" title="Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02" href="https://hackmd.io/@opensourceinitiative/osaid-faq">Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[3]: <a rel="noopener" target="_blank" title="Open Source Initiative, “The Open Source AI Definition – 1.0”. Accessed: 2024-11-02" href="https://opensource.org/ai/open-source-ai-definition">Open Source Initiative, “The Open Source AI Definition – 1.0”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[4]: <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “SFC Announces Aspirational Statement on LLM-backed generative AI for Programming”. Accessed: 2024-11-02" href="https://sfconservancy.org/news/2024/oct/25/aspirational-on-llm-generative-ai-programming/">Software Freedom Conservancy, “SFC Announces Aspirational Statement on LLM-backed generative AI for Programming”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[5]: <a rel="noopener" target="_blank" title="J. Brockmeier, “OSI readies controversial Open AI definition”, LWN.net. Accessed: 2024-11-02" href="https://lwn.net/Articles/995159/">J. Brockmeier, “OSI readies controversial Open AI definition”, LWN.net. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[6]: <a rel="noopener" target="_blank" title="Free Software Foundation, “FSF is working on freedom in machine learning applications”. Accessed: 2024-11-02" href="https://www.fsf.org/news/fsf-is-working-on-freedom-in-machine-learning-applications">Free Software Foundation, “FSF is working on freedom in machine learning applications”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[7]: <a rel="noopener" target="_blank" title="tante, “Does Open Source AI really exist?”. Accessed: 2024-11-02" href="https://tante.cc/2024/10/16/does-open-source-ai-really-exist/">tante, “Does Open Source AI really exist?”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[8]: <a rel="noopener" target="_blank" title="M. Hoffmann, F. Nagle, and Y. Zhou, “The Value of Open Source Software,” SSRN Journal, 2024." href="https://www.ssrn.com/abstract=4693148">M. Hoffmann, F. Nagle, and Y. Zhou, “The Value of Open Source Software,” SSRN Journal, 2024.</a></li>
+</ul>
+<ul>
+<li>[9]: <a rel="noopener" target="_blank" title="The Linux Foundation, “Community Data License Agreement - Sharing, Version 1.0”. Accessed: 2024-11-02" href="https://cdla.dev/sharing-1-0/">The Linux Foundation, “Community Data License Agreement - Sharing, Version 1.0”. Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[10]: <a rel="noopener" target="_blank" title="European Parliament and Council, “Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations”, Accessed: 2024-11-02" href="http://data.europa.eu/eli/reg/2024/1689/oj/eng">European Parliament and Council, “Regulation (EU) 2024/1689 of the European Parliament and of the Council of 13 June 2024 laying down harmonised rules on artificial intelligence and amending Regulations”, Accessed: 2024-11-02</a></li>
+</ul>
+<ul>
+<li>[11]: <a rel="noopener" target="_blank" title="Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02" href="https://sfconservancy.org/blog/2024/oct/31/open-source-ai-definition-osaid-erodes-foss/">Software Freedom Conservancy, “Open Source AI Definition Erodes the Meaning of Open Source”. Accessed: 2024-11-02</a></li>
+</ul>
+
+      <nav>
+        <div>
+          <a href="https://opensourcerer.eu/free-open-ethical/">&#8249; Free, Libre, Open - Ethical?</a>
+        </div>
+        <div>
+          <a href="https://opensourcerer.eu/intro/"> Introducing OpenSourcerer.eu &#8250;</a>
+        </div>
+      </nav>
+    </article>
+  </main>
+  <footer>
+    <hr />
+    <div class="c">
+      <nav class="tpad"><div><a type="application/atom+xml" href="https://opensourcerer.eu/atom.xml" target="_blank" title="OpenSourcerer.eu Atom Feed"><i type="Button" class="svg rss" title="OpenSourcerer.eu Atom Feed"></i></a><a class="js m-protected" href="#bGFyc0BtYXJvd3NreS1icmVlLmV1" target="_blank" title="Mail"><i type="Button" class="svg mail" title="Mail"></i></a><a href="https://mastodon.online/@larsmb" target="_blank" title="Mastodon" rel="me"><i type="Button" class="svg mastodon" title="Mastodon"></i></a><a href="https://matrix.to&#x2F;#&#x2F;@l_mb:matrix.org/" target="_blank" title="Matrix"><i type="Button" class="svg matrix" title="Matrix"></i></a><a href="https://www.linkedin.com/in/larsmb/" target="_blank" title="LinkedIn"><i type="Button" class="svg linkedin" title="LinkedIn"></i></a><a href="https://github.com/l-mb/" target="_blank" title="Github"><i type="Button" class="svg github" title="Github"></i></a></div></nav>
+      <nav class="vpad">
+        <a class="rpad s90" href="https://opensourcerer.eu/privacy/"> Privacy </a>
+        <a class="rpad s90" href="https://opensourcerer.eu/license/"> License </a>
+        <a class="rpad s90" href="https://github.com/l-mb/l-mb.github.io/" target="_blank"> GitHub </a>
+        <a class="rpad s90" href="https://opensourcerer.eu/sitemap.xml" target="_blank"> Sitemap </a>
+      </nav>
+          
+      <p class="s80"> © <span id="year">2024</span> Lars Marowsky-Brée • Website content is licensed <a rel="noopener" target="_blank" href="https://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.</p>
+    </div>
+  </footer><span class="topout">
+<span class="topleft"> </span><a href="#" class="top" title="Back to Top"><i class="svgs svgh angu"></i></a>
+</span>
+</body>
+</html>

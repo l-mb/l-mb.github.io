@@ -1,5 +1,5 @@
 +++
-title = "How about the AImperor's new clothes?"
+title = "The AImperor's New Clothes Are Neither Absent Nor Impeccable"
 date = "2025-07-31"
 draft = true
 
@@ -10,37 +10,38 @@ tags = ["GenAI"]
 ## The Difficulty of Polarized Discourse
 
 Generative AI, particularly LLMs, is very difficult to converse about,
-unless you managed to find a rare group of people open to discourse.
+unless you managed to find a rare group of people open to dialogue.
 
-If you imply they have any value rather than outright condemning them,
+If you imply LLMs have any value rather than outright condemning them,
 the people fundamentally opposed to them will throw you in with the
 hypists and slopsters.
 
 If you you want to discuss their limits and constraints instead of
 praising them, you will be seen as a naysayer, a fossil, and probably
-get called a luddite (as an insult).
+get called a Luddite (and not as the praise it should be).
 
 There is also an elephant in the room — the harm and associated with
 generative AI and LLMs. For now, I will do the unspeakable *and ignore
-it*. But I promise I'll get back to it before this blog is done.
+it*. But I promise I'll get back to it before this blog is done, and
+explain why.
 
-We need to overcome these tensions if we are to find a path forward. And we
-must, since LLMs and generative AI *exist*, are part of our shared reality,
-seen to be shiny by some (for various reasons), and (for complex reasons) get
-shoved into everything.
+We need to overcome these tensions if we are to find a path forward. And
+we must, since LLMs and generative AI *exist*, are part of our shared
+reality, seen to be shiny by some (for various reasons), and (for
+complex reasons) get added to quite literally everything.
 
-As a profession, we owe it to our users, customers, and community members to
-do better.
+As a profession, we owe it to our users, customers, and community
+members to do better.
 
-### Denial Is Not a Strategy
+### Denial is not a strategy
 
 I will start by first talking to the side I feel most closely aligned
 with: those of us who are critical of GenAI and LLMs in particular.
 (I'll mostly limit myself to LLMs here; while I believe the general
-thoughts apply more broadly, I'm not as familiar with the use for a
-lot of other content.)
+thoughts apply more broadly, I'm not as familiar.)
 
-Denigrating all use of generative AI as pointless is not constructive.
+Denigrating all use of generative AI as pointless is not constructive,
+nor credible.
 
 Why?
 
@@ -52,23 +53,28 @@ familiar with a new and different tool) will have found scenarios where
 LLMs are mind-blowing in comparison to what we had before.
 
 For breaking through the "staring at a blank page" stage of any sort of
-project, translations, the most powerful computer translation we've seen
-so far, a thesaurus and brain-storming tool with no equal, proximity
-search, to, yes, "vibe coding" of random prototypes for whatever, the
+project, translations (of both human and programming languages, and even
+between those two domains), a thesaurus and brain-storming tool with no
+equal (except maybe the trusty rubber duck), approximate
+summarization, proximity search, providing feedback on tone and not just
+syntax, to, yes, "vibe coding" of random prototypes for whatever, the
 list goes on: it can be both useful *and* fun.
 
-#### Learning Curve
+#### Learning curve
 
-And no, not all examples of prompts LLMs generated bad responses to are
-useful. You've got to take into account how the tool works when you use
-it.
+And no, not all examples where LLMs generate bad responses are
+constructive. You have to take how the tool works into account when you
+use it.
 
-Yes, I also laugh when they seemingly can't count the letter "r" in the
-word "strawberry".
+Yes, I also laugh when they seemingly can't count the number of
+occurrences of the letter "r" in the word "strawberry".
 
-It's only a good example if you pair it with an explanation as to why,
-and how to wield the tool to actually achieve the goal: ask it to write
-a python script to do it; it can probably write MMIX better than you.
+This is only a good example if you pair it with [an explanation as to
+*why*](https://www.runpod.io/blog/llm-tokenization-limitations), and how
+to [wield the tool to actually achieve the
+goal](https://deepgains.substack.com/p/why-do-llms-struggle-with-counting):
+ask it to write a python script to do it; it can probably write MMIX
+better than you.
 
 If you stop at laughing, folks will assume you've never tried in
 earnest.
@@ -76,7 +82,7 @@ earnest.
 If you can't at least hold the tool right, people will dismiss your
 opinion; that's not a credible position to argue from.
 
-#### Perfection Is Overrated (sometimes)
+#### Perfection is overrated (sometimes)
 
 Not all scenarios need perfection. The LLM may generate a response you
 wouldn't merge or write yourself; doesn't mean it's not useful in the
@@ -87,36 +93,37 @@ And especially to users who have a scenario where long-term
 maintainability or even performance is perhaps a secondary concern, it
 is more useful to have a working answer than a better one.
 
-#### Approximate Solutions Can Rock
-
-There are use cases that would be incredibly difficult to code
-traditionally: e.g., I use LLMs to generate hash tags for web pages I
-clip for linking them, or for heuristic proximity search based on their
-embeddings, ... For these scenarios, it's not important it is correct or
-complete.
-
-#### Admit it:
+#### Let's admit it
 
 Sorry, but you can't tell me it is not technically rather amazing what
 we can achieve with what is, at the heart of it, probabilistic text
-transformation with a pinch of RNJesus.
+transformation with a pinch of Lady Luck.
 
 Plus, as an engineer, I find the sheer scale of the deployments and
 operations incredible.
 
-#### Acknowledge People's Experience
+#### Acknowledge people's experience
 
-If you want to reach people, you have to acknowledge this experience
-instead of denying it; denying it means you are easy to dismiss. That is
+If you want to reach people, you have to acknowledge this instead of
+denying it; rejecting it entirely means you are easy to dismiss. That is
 not the way to a constructive discourse.
+
+Only if you — we — are also honest about what the LLMs *can* do will we
+be taken seriously and be credible when we discuss their limits and
+constraints.
 
 ### On the other hand ...
 
 On the other hand, everyone who has sincerely experimented with LLMs in
-an area they're confident in knows they have severe limitations.
+an area they're confident in also knows they have severe limitations.
+
+And we must be honest about them if we want to model LLMs appropriately
+in our minds, which is a pre-requisite to using them where they make
+sense, and make sensible use of their outputs. And avoiding their use
+where they are not the right tool for the job.
 
 Honestly? I'd not know where to start with my own anecdotes regarding
-this. I have so many.
+that. I have so many.
 
 #### Our intuition fails us
 
@@ -133,8 +140,9 @@ computers are good at:
 
 Once you got a response, barring bugs, you could likely trust it.
 
-LLMs *suck* at all of these, and largely don't do any of this when you
-throw them a query. (Yes, RAG non-withstanding.)
+LLMs *fail* at all of these, and largely don't do any of this when you
+throw them a prompt. (Yes, Retrieval-Augmented Generation
+non-withstanding.)
 
 They are not fast. They do not look-up facts. They are not databases.
 They are not reliable. And they are so non-reproducible that Monte Carlo
@@ -145,6 +153,13 @@ Clearly, at the very least, this requires a period of adjustment,
 combined with honest education and training. Both of which most of us
 were not given before being exposed to it.
 
+And their generated responses sound very plausible and confident;
+because that is what they were trained on. Few people write and publish
+content when they are severely doubting themselves.
+
+This is likely obvious to you if you found your way to my blog; but it
+is *not* obvious to society at large, still.
+
 #### The limitations are glaring
 
 At the time of this writing, even the latest and expensive "frontier"
@@ -152,7 +167,7 @@ models available, such as provided by OpenAI or Claude.ai, "fail" in
 fairly spectacular ways that no human would, unless severely
 incapacitated.
 
-#### Hallucination?
+#### Hallucination does not cover it
 
 For example, when Claude.ai's expensive to train and expensive to use
 Opus 4 model with extended thinking and "deep research" generates a
@@ -165,7 +180,7 @@ less!), and then proceeds from this assumption to generate the rest of
 the response —
 
 This *might* be reasonable and certainly reads as such, who of us hasn't
-made well-reasoned assumptions yet in the absence of facts? —
+made well-reasoned assumptions in the absence of facts? —
 
 But the very fact the response implied just wasn't communicated anywhere
 was clearly stated in the very link of the product page provided as part
@@ -179,16 +194,17 @@ But that's not hallucination, either.
 From the perspective of the user, that's failure.
 
 This is not a good use case for LLMs; but it is one they are explicitly
-marketed for. I cringe whenever I see someone suggests to query an LLM
-for facts or research them. (Unless, of course, they really go off and
-cross-check all facts. Have you ever graded class work? Right.)
+marketed for. I cringe whenever I see someone suggest to query an LLM
+for facts or research them. (Unless, of course, they really cross-check
+all assumptions, which experience with even university-grade work
+suggests is not going to happen.)
 
 #### If everything you have is an LLM ...
 
-... then everything must be a conversation, right?
+... then everything must become a conversation.
 
 This is why even my bank's very reasonable request for me to check my
-contact details suggests only the path of "ask our AI chat bot for your
+contact details suggests only the path of "ask our chat bot for your
 address and chat with it to correct it if needed" — instead of just
 pointing me at a simple form to click "OK" on.
 
@@ -207,7 +223,7 @@ answer (with possible corruption). Instead fix your docs to be better!
 (Ironically, this will make your product better to interact with by LLMs
 ...)
 
-#### And the operators know:
+#### And the operators know
 
 Support chats now almost always include the disclaimer of "this is an AI
 model. It can make mistakes.".
@@ -218,19 +234,23 @@ can hold the company who I'm in contact with to account for.
 [Over on LinkedIn I have argued that this is another case of holding the
 tool
 wrong](https://www.linkedin.com/pulse/dont-direct-your-users-chat-bots-support-lars-marowsky-br%C3%A9e-pcgoe/)
-and that it can be done right, but the current common approach is simply
-infuriating.
+and that it should be done better and how.
 
-#### Facts can't be trusted
+But the current common approach is simply infuriating: it focuses only
+on cost reduction for the provider, at the expense of the consumer. and
+not on better outcomes for the consumer.
 
-You have got to double-check every thing the generated response claims,
+#### Facts?
+
+You have to double-check every thing the generated response claims,
 because you only get back a statistically likely answer relative to the
-data the system was trained on, plus some intentional randomness.
+data the system was trained on, plus some intentional randomness. Not
+facts the system looked up in response to your query.
 
-(This may be particularly annoying to people in whose work and interests
-facts very much do matter, and if I may be so snarky, I think a lot of
-the LLM hype is generated by people who operate in spheres where the
-shared reality is more subject to negotiation.)
+This may be particularly annoying to people in whose work and interests
+facts and all details very much do matter. And if I may be so snarky, I
+think a lot of the LLM hype is generated by people who operate in
+spheres where the shared reality is more subject to negotiation.
 
 The same is pretty much true for most other (generative) AI use cases,
 from image generation to text transcripts and voice: that they appear
@@ -239,24 +259,28 @@ plausible to casual human inspection is not the same thing as them being
 
 #### Not Fit For Purpose
 
-Simply put: the models are **not** fit for the purposes they're marketed
-and sold for.
+**TL;DR**: the models are **not** fit for the purposes they're marketed and
+sold for.
 
 And we have no known strategy to overcome these limitations.
 
-Because they've suddenly developed these apparent capabilities at a
-certain complexity and scale, we keep mostly throwing more scale at
-it, while crossing our fingers.
+Because GPTs and LLMs have suddenly developed these apparent
+capabilities at a certain complexity and scale, our answer mostly
+consists of throwing more scale at the limits, and crossing our
+fingers.
 
-We have collectively sunk trillions into this by now across all
-dimensions, and while this yields improvements, the systems keep
-generating vastly incorrect responses.
+We have collectively sunk trillions into this. And while this yields
+improvements, the systems keep generating vastly incorrect and
+incomplete responses.
 
 That is not the same as saying they are not useful; I kindly refer back
 to the first part of this writing. And yet, there is an inflated
-presentation that they do not yet deliver on.
+presentation that they do not deliver on.
 
-## The Elephant in the Room
+They are an open research problem. The strategy might exist. But it
+might not.
+
+## The Elephant in the room
 
 Let's come back to the elephant in the room: the harm.
 
@@ -266,29 +290,36 @@ Let's come back to the elephant in the room: the harm.
   (and _would_ be, if it wasn't done by billionaires).
 - For Cloud-based Generative AI, the usual privacy concerns apply.
 - Generative AI is marketed with dishonest, exaggerated claims.
+- It's often pushed with the goals of wage suppression, de-skilling, and
+  lay-offs.
 - Generative AI is used as what can only be described a massive
   denial-of-service attack against our collective minds.
 
-The problem with all of these?
+Yes, I agree. These and more are excellent reasons to oppose the use of
+most generative AI.
+
+The problem with raising all of these?
 
 They are appeals to morality, ethics, or external costs.
 
 These only ever matter to businesses when politics creates policies and
 regulations that are actually enforced by the judiciary and executive.
 
-So yes, I agree. These and more are excellent reasons to oppose the use
-of most generative AI.
-
 But if you make any of these arguments to a leader in *business*,
-they'll shrug, even if they agree, if it looks like they
-create more profits for their shareholders with fewer pesky humans in
-the loop.
+they'll shrug, even if they agree, if it looks like they create more
+profits for their shareholders with fewer pesky humans in the loop.
+Humans mean wages, social security payments, overhead costs. Of course
+they prefer automation.
 
-(I totally respect that this is why you chose to not learn how to hold
-the tool. But then be clear about this; make moral arguments if your
-argument is moral, don't claim the tool doesn't and/or can't work.)
+I respect that this is why you chose to not learn how to hold the tool.
+But then be clear about this; make moral arguments if your argument is
+moral, don't claim the tool doesn't and/or can't work.
 
-### Systemic Action Is Needed
+Note that Luddites were not opposed to progress as such; the arguments
+brought forth against all criticism of Generative AI have similarities
+with the campaigns against Luddism.
+
+### Systemic Action is needed
 
 These are arguments you need to make to politicians and as part of your
 labour unions.
@@ -299,7 +330,12 @@ this. And a few individuals or even organizations changing their minds
 also has too little impact. We must address them systemically.
 
 These harms are not inherent to LLMs per se. They are inherent to LLMs
-driven by shareholder-first capitalism in the pre-regulation rush.
+*driven by shareholder-first capitalism in the pre-regulation rush*.
+
+And it works! See the EU AI Act, and even the OSI AI Definition (as much
+as I criticize it). Regulation is always slower than the unrestrained
+gold rush. But it will catch up; we've seen this before. Let's give it a
+push, together.
 
 ### The genie is out of the bottle
 
@@ -313,16 +349,16 @@ three decades ago.
 There is no going back. LLMs will be around, even if folks realize their
 limits. Because they *are* useful.
 
-We need them to be ethically and sustainably.
+We need them to be ethical and sustainable.
 
-## In conclusion
+## Is the AImperor naked?
 
 *No, the emperor is not naked.* We must acknowledge this if we want to
 have a meaningful conversation.
 
 But.
 
-*The emperor is wearing bloodied rags.* We must acknowledge this if we
+*The emperor is wearing stained rags.* We must acknowledge this if we
 want to move forward.
 
 ## Quo vadis?
@@ -335,20 +371,22 @@ and deliver is worth their current level of investment.
 Much less so if we do eventually end up factoring in what the vendors
 currently get to consider "external costs" through regulation.
 
-### The optimists could be right:
+### The optimists could be right
 
 There is, of course, a nonzero chance that someone does find the holy
 grail - not for "General Purpose AI", but just merely, you know, for
 generative AI that doesn't make stuff up; or at least at a statistically
 irrelevant level. A new algorithm, a new magic scale threshold.
 
-### Or Else?
+### Or else?
 
 Should this fail to occur in the short- or mid-term, I suspect the
-bubble will collapse **spectacularly**.
+bubble will collapse **spectacularly**. And I am [not
+alone](https://fortune.com/2024/02/26/nvidia-ai-bubble-apollo-asset-manager-dotcom-artificial-intelligence/)
+in this prediction.
 
 The dotcom bubble burst in the first few years of my career. It all went
-great — until it didn't.
+great — right until it didn't.
 
 Right now, nobody in the industry can afford for this to happen.
 
@@ -358,16 +396,39 @@ crisis look tame, all the large investors in the tech world need us to
 shove LLMs into everything to keep expanding; and pretend, hope, pray
 that there is a path to success — and that we will find it.
 
-There's a reason "AI" features are now in everything, besides people
+There's a reason "AI" features are now in everything, beyond the people
 actually believing the claims: the industry needs to show increasing
 user counts. *Or else.*
 
-## Brace.
+### So what will happen?
 
 My best guess? LLMs will still be around in a decade or two, and we'll
-all use them for what they can do. (And yes, people will still oversell
-them, just like with everything else.)
+all use them for what they can do, with varying levels of quality of
+product. (And yes, people will still oversell them, just like with
+everything else.)
 
 But *somewhen* between then and today, there'll be a supremely
 uncomfortable half-decade or so.
+
+LLMs are neither useless nor magical. They succeed at certain tasks but
+fail spectacularly at others. The problem isn't the technology but
+shareholder capitalism without adequate regulation.
+
+## And until then?
+
+Until then, let's do our best. Perhaps limit their use, as far as your
+job permits. Don't hate yourself or others if you decide that to stay
+competitive, you have no choice. Be mindful. Use the more ethical
+options. Not everything can be offset entirely, but donate to the
+restoration of swamps and other offsetting approaches. Donate to
+educational charities to raise awareness. Advocate for ethical and
+sustainable approaches. Write to your legislators and regulators (policy
+proposals are beyond the scope of this article). Have meaningful
+conversations with your corporate leadership about how to lower costs
+*and* improve quality. Be realistic about what you can achieve if they
+are owned by investors that are also owning AI companies. Unionize.
+Don't guilt-trip folks who use them, but educate them from a position of
+understanding. Walk the line between denial and hype.
+
+Oh, and diversify your stocks.
 

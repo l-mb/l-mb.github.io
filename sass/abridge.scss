@@ -5,8 +5,8 @@
   /// Enable a centered viewport for <header>, <main>, <footer> inside <body>
   /// Fluid layout until a defined size, then becomes centered viewport.
   //$enable-maxwidth: true,
-  $mw: 42%,// max-width
-  //$mb: 1200px,// value at which to switch from fluid layout to max-width
+  $mw: 30%,// max-width
+  $mb: 1024px,// value at which to switch from fluid layout to max-width
 
   $abridgeMode: "switcher",//valid values: switcher, auto, dark, light
   $syntax-mode: "auto",// Force syntax mode: auto, dark, light

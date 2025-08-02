@@ -1,7 +1,7 @@
 +++
 title = "The AImperor's New Clothes Are Neither Absent Nor Impeccable"
-date = "2025-07-31"
-draft = true
+date = "2025-08-02"
+draft = false
 
 [taxonomies]
 tags = ["GenAI"]

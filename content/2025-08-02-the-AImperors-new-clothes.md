@@ -169,6 +169,10 @@ incapacitated.
 
 #### Hallucination does not cover it
 
+They hallucinate sources because it is likely that such sources would
+exist and be cited by a human. But they also fail to correctly
+incorporate the sources they do consume into their contexts.
+
 For example, when Claude.ai's expensive to train and expensive to use
 Opus 4 model with extended thinking and "deep research" generates a
 "report" in response to a fairly well-crafted prompt asking for a
@@ -193,11 +197,11 @@ But that's not hallucination, either.
 
 From the perspective of the user, that's failure.
 
-This is not a good use case for LLMs; but it is one they are explicitly
-marketed for. I cringe whenever I see someone suggest to query an LLM
-for facts or research them. (Unless, of course, they really cross-check
-all assumptions, which experience with even university-grade work
-suggests is not going to happen.)
+Yes. This is not a good use case for LLMs; but it is one they are
+explicitly marketed for. I cringe whenever I see someone suggest to
+query an LLM for facts or research them. (Unless, of course, they really
+cross-check all assumptions, which experience with even university-grade
+work suggests is not going to happen.)
 
 #### If everything you have is an LLM ...
 
@@ -292,6 +296,8 @@ Let's come back to the elephant in the room: the harm.
 - Generative AI is marketed with dishonest, exaggerated claims.
 - It's often pushed with the goals of wage suppression, de-skilling, and
   lay-offs.
+- Use of Generative AI outputs without taking will likely lead to model
+  collapse.
 - Generative AI is used as what can only be described a massive
   denial-of-service attack against our collective minds.
 

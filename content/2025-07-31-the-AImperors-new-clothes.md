@@ -7,7 +7,7 @@ draft = true
 tags = ["GenAI"]
 +++
 
-# The Difficulty of Discourse
+## The Difficulty of Discourse
 
 Generative AI, particularly LLMs, is very difficult to converse about,
 unless you managed to find a rare group of people open to discourse.
@@ -24,7 +24,7 @@ There is also an elephant in the room — the harm and associated with
 generative AI and LLMs. For now, I will do the unspeakable *and ignore
 it*. But I promise I'll get back to it before this blog is done.
 
-## Denial Is Not a Strategy
+### Denial Is Not a Strategy
 
 I will start by first talking to the side I feel most closely aligned
 with: those of us who are critical of GenAI and LLMs in particular.
@@ -49,7 +49,7 @@ so far, a thesaurus and brain-storming tool with no equal, proximity
 search, to, yes, "vibe coding" of random prototypes for whatever, the
 list goes on: it can be both useful *and* fun.
 
-### Learning Curve
+#### Learning Curve
 
 And no, not all examples of prompts LLMs generated bad responses to are
 useful. You've got to take into account how the tool works when you use
@@ -65,7 +65,7 @@ a python script to do it; it can probably write MMIX better than you.
 If you stop at laughing, folks will assume you've never tried in
 earnest.
 
-### Admit it!
+#### Admit it!
 
 Sorry, but you can't tell me it is not technically rather amazing what
 we can achieve with what is, at the heart of it, probabilistic text
@@ -78,7 +78,7 @@ If you want to reach people, you have to acknowledge this experience
 instead of denying it; denying it means you are easy to dismiss. That is
 not the way to a constructive discourse.
 
-## On the other hand ...
+### On the other hand ...
 
 On the other hand, everyone who has sincerely experimented with LLMs in
 an area they're confident in knows they have severe limitations.
@@ -86,7 +86,7 @@ an area they're confident in knows they have severe limitations.
 Honestly? I'd not know where to start with my own anecdotes regarding
 this. I have so many.
 
-### Our intuition fails us
+#### Our intuition fails us
 
 And I am not surprised, because I (at the most high-level, admittedly)
 understand how they work. And I understand why many people who are not
@@ -104,14 +104,14 @@ They are not fast. They do not look-up facts. They are not reliable. And
 they are so non-reproducible that Monte Carlo multi-shot is a viable
 tactic. You can't trust the response.
 
-### The limitations are glaring
+#### The limitations are glaring
 
 At the time of this writing, even the latest and expensive "frontier"
 models available, such as provided by OpenAI or Claude.ai, "fail" in
 fairly spectacular ways that no human would, unless severely
 incapacitated.
 
-### Hallucination?
+#### Hallucination?
 
 And, look, when Claude.ai's expensive to train and expensive to use Opus
 4 model with extended thinking and "deep research" generates a "report"
@@ -136,7 +136,7 @@ But that's not hallucination, either.
 
 That's failure.
 
-### If everything you have is an LLM ...
+#### If everything you have is an LLM ...
 
 ... then everything must be a conversation, right?
 
@@ -149,7 +149,7 @@ pointing me at a simple form to click "OK" on.
 interactions, regardless of efficiency, but we see this shoved into
 every system at the cost of the other approaches.)
 
-### And the operators know:
+#### And the operators know:
 
 Support chats now almost always include the disclaimer of "this is an AI
 model. It can make mistakes.".
@@ -157,7 +157,7 @@ model. It can make mistakes.".
 When I reach to support, I want a correct answer. Or at least one I can
 hold the company who I'm in contact with to account for.
 
-### Facts can't be trusted
+#### Facts can't be trusted
 
 You have got to double-check every thing the generated response claims,
 because you only get back a statistically likely answer relative to the
@@ -173,7 +173,7 @@ from image generation to text transcripts and voice: that they appear
 plausible to casual human inspection is not the same thing as them being
 *correct*.
 
-### Not Fit For Purpose
+#### Not Fit For Purpose
 
 Simply put: the models are *not* fit for the purpose they're marketed
 and sold for.
@@ -187,7 +187,7 @@ it, while crossing our fingers.
 We have sunk trillions into this by now, and yet the systems keep
 generating vastly incorrect responses.
 
-# The elephant in the room
+## The elephant in the room
 
 Let's come back to the elephant in the room: the harm.
 
@@ -214,7 +214,7 @@ they'll shrug, even if they agree, if it looks like they
 create more profits for their shareholders with fewer pesky humans in
 the loop.
 
-## The genie is out of the bottle
+### The genie is out of the bottle
 
 At the same time, I believe it is impossible to put the genie back into
 the bottle. Yes, all these harms are real and horrible. And yet.
@@ -226,7 +226,7 @@ sever actions. Looms are still automated.
 There is no going back. LLMs will be around, even if folks realize their
 limits. Because they *are* useful.
 
-## Systemic Action Is Needed
+### Systemic Action Is Needed
 
 These are arguments you need to make to politicians and as part of your
 labour unions.
@@ -238,7 +238,7 @@ this.
 And they'd also have too little impact, unless we address them
 systemically.
 
-# In conclusion
+## In conclusion
 
 *No, the emperor is not naked.* We must acknowledge this if we want to
 have a meaningful conversation.
@@ -246,7 +246,7 @@ have a meaningful conversation.
 *The emperor is wearing bloodied rags.* We must acknowledge this if we
 want to move forward.
 
-# Quo vadis?
+## Quo vadis?
 
 This leaves us, and especially my own industry, in a risky quandary.
 
@@ -256,7 +256,7 @@ and deliver is worth their current level of investment.
 Much less so if we do eventually end up factoring in what the vendors
 currently get to consider "external costs" through regulation.
 
-## The optimists could be right:
+### The optimists could be right:
 
 There is, of course, a nonzero chance that someone does find the holy
 grail - not for "General Purpose AI", but just merely, you know, for
@@ -271,7 +271,7 @@ usefulness catch up with the investment.
 The harms are not inherent in LLMs; we could build and operate them
 differently.
 
-## But ...
+### But ...
 
 Should neither occur in the short- or mid-term, I suspect the bubble
 will collapse **spectacularly**.

@@ -96,10 +96,10 @@
   //$c2: #eee,// Background Color Secondary
   //$c3: #ddd,// Table Rows, Block quote edge, Borders
   //$c4: #555,// Disabled Buttons, Borders, mark background
-  //$a1: #c40,// link color
-  //$a2: #e60,// link hover/focus color
-  //$a3: #f90,// link h1-h2 hover/focus color
-  //$a4: #c40,// link visited color
+  $a1: #338,// link color
+  $a2: #00f,// link hover/focus color
+  $a3: #00f,// link h1-h2 hover/focus color
+  $a4: #33f,// link visited color
   //$cg: #373,// ins green, success
   //$cr: #d33,// del red, errors
 
@@ -191,7 +191,7 @@
   //$blocks: true,//css classes for block formatting, eg: recent posts, table of contents, series navigation
   //$series: true,//series navigation list
   //$modifiers: true,//tiny modifier classes for sizing, spacing, etc.
-  //$misc: false,
+  $misc: true,
   //$grid: true,//Infinity Grid, column based layouts.
   //$syntax: true,//syntax highlighting for code blocks
   //$coderoundhighlight: false,//round corners on highlighted code blocks

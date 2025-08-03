@@ -98,6 +98,9 @@ And especially to users who have a scenario where long-term
 maintainability or even performance is perhaps a secondary concern, it
 is more useful to have a working answer than a better one.
 
+AI may not raise the ceiling, but it does raise the floor. And there is
+value in that.
+
 #### Let's admit it
 
 Sorry, but you can't tell me it is not technically rather amazing what
@@ -119,13 +122,14 @@ constraints.
 
 ### On the other hand ...
 
-On the other hand, everyone who has sincerely experimented with LLMs in
-an area they're confident in also knows they have severe limitations.
+On the other hand, every expert who has, in their field, sincerely
+experimented with LLMs in in also knows they have severe limitations.
 
-And we must be honest about them if we want to model LLMs appropriately
-in our minds, which is a pre-requisite to using them where they make
-sense, and make sensible use of their outputs. And avoiding their use
-where they are not the right tool for the job.
+And we must be honest about those if we want to model LLMs appropriately
+in our minds (instead of falling into the trap of anthropomorphizing
+them), which is a pre-requisite to using them where they make sense, and
+make sensible use of their outputs. And avoiding their use where they
+are not the right tool for the job.
 
 Honestly? I'd not know where to start with my own anecdotes regarding
 that. I have so many.
@@ -305,8 +309,8 @@ Let's come back to the elephant in the room: the harm.
   lay-offs.
 - Use of Generative AI outputs without taking will likely lead to model
   collapse.
-- Generative AI is used as what can only be described a massive
-  denial-of-service attack against our collective minds.
+- Generative AI is used in ways that can only be described as massive
+  denial-of-service attacks against our collective minds and society.
 
 Yes, I agree. These and more are excellent reasons to oppose the use of
 most generative AI.
@@ -370,13 +374,20 @@ We need them to be ethical and sustainable.
 
 ## Is the AImperor naked?
 
-*No, the emperor is not naked.* We must acknowledge this if we want to
-have a meaningful conversation.
+*No, the emperor is not naked.*
+
+We must acknowledge this if we want to have a meaningful conversation. I
+found myself too frequently annoyed with the reductionist and dismissive
+position taken by some critics.
 
 But.
 
-*The emperor is wearing stained rags.* We must acknowledge this if we
-want to move forward.
+*The emperor is wearing bloodied rags.*
+
+We must acknowledge this if we want to move forward. As you can probably
+tell, my position isn't quite neutral. But our criticism needs to be
+constructive, credible, and framed appropriately for our target audience
+to have impact.
 
 ## Quo vadis?
 

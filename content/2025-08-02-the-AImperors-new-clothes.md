@@ -20,7 +20,7 @@ If you you want to discuss their limits and constraints instead of
 praising them, you will be seen as a naysayer, a fossil, and probably
 get called a Luddite (and not as the praise it should be).
 
-There is also an elephant in the room — the harm and associated with
+There is also an elephant in the room — the harm associated with
 generative AI and LLMs. For now, I will do the unspeakable *and ignore
 it*. But I promise I'll get back to it before this blog is done, and
 explain why.

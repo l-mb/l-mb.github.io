@@ -307,6 +307,10 @@ Let's come back to the elephant in the room: the harm.
 - Generative AI is marketed with dishonest, exaggerated claims.
 - It's often pushed with the goals of wage suppression, de-skilling, and
   lay-offs.
+- LLMs reproduce and thus perpetuate biases inherent in their training
+  data and labeling.
+- As a consequence, they also are bad at generating output of higher
+  quality than their inputs; much the opposite.
 - The inability to filter Generative AI outputs from future inputs will
   likely lead to model collapse.
 - Generative AI is used in ways that can only be described as massive
@@ -315,7 +319,10 @@ Let's come back to the elephant in the room: the harm.
 Yes, I agree. These and more are excellent reasons to oppose the use of
 most generative AI.
 
-The problem with raising all of these?
+And yet, only some of these problems _are_ immediately (and not just
+several quarters in the future) applicable to a business today.
+
+The problem with raising the rest?
 
 They are appeals to morality, ethics, or external costs.
 

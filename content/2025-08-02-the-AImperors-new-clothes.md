@@ -60,6 +60,11 @@ summarization, proximity search, providing feedback on tone and not just
 syntax, to, yes, "vibe coding" of random prototypes for whatever, the
 list goes on: it can be both useful *and* fun.
 
+Speaking of software engineering, seasoned professional engineers I
+highly respect and personally know report impressive results (with, yes,
+caveats; we'll get to those). It would be hubris to dismiss all of their
+insights.
+
 #### Learning curve
 
 And no, not all examples where LLMs generate bad responses are
@@ -150,7 +155,8 @@ multi-shot (give the problem to LLMs multiple times, hoping one answer
 is good enough) is a viable tactic. You can't trust the response.
 
 Clearly, at the very least, this requires a period of adjustment,
-combined with honest education and training. Both of which most of us
+combined with honest education and training: the outputs from these
+tools need to be treated quite differently. Both of which most of us
 were not given before being exposed to it.
 
 And their generated responses sound very plausible and confident;
@@ -292,6 +298,7 @@ Let's come back to the elephant in the room: the harm.
 - A lot of the labelling is done by underpaid and exploited workers.
 - A lot of the content they're trained can only be considered IP theft
   (and _would_ be, if it wasn't done by billionaires).
+- They are trained to read like confidence tricksters.
 - For Cloud-based Generative AI, the usual privacy concerns apply.
 - Generative AI is marketed with dishonest, exaggerated claims.
 - It's often pushed with the goals of wage suppression, de-skilling, and
@@ -324,6 +331,10 @@ moral, don't claim the tool doesn't and/or can't work.
 Note that Luddites were not opposed to progress as such; the arguments
 brought forth against all criticism of Generative AI have similarities
 with the campaigns against Luddism.
+
+Further note that, somehow, GenAI and LLMs are almost always brought up
+as tools to reduce the staffing needs for employees and individual
+contributors; rarely for the CxO level.
 
 ### Systemic Action is needed
 

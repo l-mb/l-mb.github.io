@@ -16,9 +16,9 @@ If you imply LLMs have any value rather than outright condemning them,
 the people fundamentally opposed to them will throw you in with the
 hypists and slopsters.
 
-If you you want to discuss their limits and constraints instead of
-praising them, you will be seen as a naysayer, a fossil, and probably
-get called a Luddite (and not as the praise it should be).
+If you want to discuss their limits and constraints instead of praising
+them, you will be seen as a naysayer, a fossil, and probably get called
+a Luddite (and not as the praise it should be).
 
 There is also an elephant in the room — the harm associated with
 generative AI and LLMs. For now, I will do the unspeakable *and ignore
@@ -123,7 +123,7 @@ constraints.
 ### On the other hand ...
 
 On the other hand, every expert who has, in their field, sincerely
-experimented with LLMs in in also knows they have severe limitations.
+experimented with LLMs also knows they have severe limitations.
 
 And we must be honest about those if we want to model LLMs appropriately
 in our minds (instead of falling into the trap of anthropomorphizing
@@ -307,8 +307,8 @@ Let's come back to the elephant in the room: the harm.
 - Generative AI is marketed with dishonest, exaggerated claims.
 - It's often pushed with the goals of wage suppression, de-skilling, and
   lay-offs.
-- Use of Generative AI outputs without taking will likely lead to model
-  collapse.
+- The inability to filter Generative AI outputs from future inputs will
+  likely lead to model collapse.
 - Generative AI is used in ways that can only be described as massive
   denial-of-service attacks against our collective minds and society.
 

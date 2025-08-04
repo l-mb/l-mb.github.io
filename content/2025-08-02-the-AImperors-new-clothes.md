@@ -215,7 +215,7 @@ From the perspective of the user, that is **failure**.
 
 Yes. This is not a good use case for LLMs; but it is one they are
 explicitly marketed for. I cringe whenever I see someone suggest to
-query an LLM for facts or research them. (Unless, of course, they really
+query an LLM for facts or research. (Unless, of course, they really
 cross-check all assumptions, which experience with even university-grade
 work suggests is not going to happen.)
 

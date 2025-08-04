@@ -177,41 +177,70 @@ models available, such as provided by OpenAI or Claude.ai, "fail" in
 fairly spectacular ways that no human would, unless severely
 incapacitated.
 
-#### Hallucination does not cover it
+#### Hallucination is a Euphemism
 
-They hallucinate sources because it is likely that such sources would
-exist and be cited by a human. But they also fail to correctly
-incorporate the sources they do consume into their contexts.
+LLMs are non-reproducible as a fundamental design choice, since some
+amount of randomness is part of their inference process. This can be
+useful for brain storming, but also means that - from the point of view
+of a user - they occasionally "invent" stuff that doesn't exist.
 
-For example, when Claude.ai's expensive to train and expensive to use
-Opus 4 model with extended thinking and "deep research" generates a
-"report" in response to a fairly well-crafted prompt asking for a
-reasonable question about a product includes a long reasoning why it
-couldn't find the required facts to answer even though the response and
-progress reports extensively having "researched" both the vendor's web
-site, user-forums, and the web at large (citing multiple sources no
-less!), and then proceeds from this assumption to generate the rest of
+LLMs "hallucinate" facts, citations, and references because it is likely
+that such sources would exist and be cited by a human. This is somewhat
+well-known by now.
+
+But the opposite also happens: they hallucinate the *absence* of
+information when they don't fully and/or accurately incorporate the
+sources used into their contexts.
+
+For example, when Claude.ai's Opus 4 (an expensive to train and
+expensive to use model with extended thinking and "deep research"
+enabled) generates a "report" in response to a fairly well-crafted
+prompt asking about a product's specification includes a long
+explanation that it couldn't find the required facts to answer the
+question, claiming to have "extensively" researched the official
+channels, technical forums, etc (stating to have incorporated **541**
+sources), and then proceeds from that assumption to generate the rest of
 the response —
 
-This *might* be reasonable and certainly reads as such, who of us hasn't
-made well-reasoned assumptions in the absence of facts? —
+This *might* be reasonable and certainly reads as such, right? It
+researched way more sources than any human would have.
 
-But the very fact the response implied just wasn't communicated anywhere
-was clearly stated in the very link of the product page provided as part
-of the prompt itself?
+However: the "missing" detail was clearly part of the very product page
+provided as part of the prompt itself.
 
-That is not surprising if you understand how they work at all, of
-course.
+Yes, that should not be surprising if you understand their constraints.
 
 But that's not hallucination, either.
 
-From the perspective of the user, that's failure.
+From the perspective of the user, that is failure.
 
 Yes. This is not a good use case for LLMs; but it is one they are
 explicitly marketed for. I cringe whenever I see someone suggest to
 query an LLM for facts or research them. (Unless, of course, they really
 cross-check all assumptions, which experience with even university-grade
 work suggests is not going to happen.)
+
+#### The Anthropomorphization Trap
+
+Since the models present as human language conversation, humans tend to
+assume they behave similarly to how a human would.
+
+e.g., when we correct them, they apologize and produce a different
+response. Humans even go so far as assuming the model was "testing" them
+with its errors to see if they were paying attention.
+
+We might assume that they are confident when their language sounds
+confident. We ascribe intent, even emotions, based on the generated
+outputs. We fall for it when it congratulates us or pays our prompt a
+compliment.
+
+Of course, none of that is true. But it is very difficult to talk to
+LLMs without using such language, and without falling into the trap of
+using mental models of humans to relate to the LLMs.
+
+(People go as far as threatening them to get supposedly better outputs;
+which, honestly, *if* those people assume they do indeed have emotions
+affecting their results, is pretty screwed up.)
 
 #### If everything you have is an LLM ...
 
@@ -313,6 +342,9 @@ Let's come back to the elephant in the room: the harm.
   quality than their inputs; much the opposite.
 - The inability to filter Generative AI outputs from future inputs will
   likely lead to model collapse.
+- The way how they present their output as "human" language actively
+  undermines our ability to not anthropomorphize them and maintain
+  sensible mental models.
 - Generative AI is used in ways that can only be described as massive
   denial-of-service attacks against our collective minds and society.
 
@@ -453,17 +485,70 @@ shareholder capitalism without adequate regulation.
 
 Until then, let's do our best. Perhaps limit their use, as far as your
 job permits. Don't hate yourself or others if you decide that to stay
-competitive, you have no choice. Be mindful. Use the more ethical
-options. Not everything can be offset entirely, but donate to the
-restoration of swamps and other offsetting approaches. Donate to
-educational charities to raise awareness. Advocate for ethical and
-sustainable approaches. Write to your legislators and regulators (policy
-proposals are beyond the scope of this article). Have meaningful
-conversations with your corporate leadership about how to lower costs
-*and* improve quality. Be realistic about what you can achieve if they
-are owned by investors that are also owning AI companies. Unionize.
-Don't guilt-trip folks who use them, but educate them from a position of
-understanding. Walk the line between denial and hype.
+competitive, you have no choice. Be mindful. Strive to maintain an
+appropriate mental model of the tool. Use the more ethical options. Not
+everything can be offset entirely, but donate to the restoration of
+swamps and other offsetting approaches. Donate to educational charities
+to raise awareness. Advocate for ethical and sustainable approaches.
+Write to your legislators and regulators (policy proposals are beyond
+the scope of this article). Have meaningful conversations with your
+corporate leadership about how to lower costs *and* improve quality. Be
+realistic about what you can achieve if they are owned by investors that
+are also owning AI companies. Unionize. Don't guilt-trip folks who use
+them, but educate them from a position of understanding. Walk the line
+between denial and hype.
 
 Oh, and diversify your stocks.
+
+# Addenda
+
+## 2025-08-03
+
+It's been brought to my attention that one assumption might be overly
+optimistic: that "not fit for purpose" would lead to significantly lower
+adoption (to the point of collapsing parts of the bubble, at least),
+especially when it comes to factual correctness and reliability.
+
+It's of course also a possibility that "we" collectively decide that,
+for many more scenarios than I'd deem acceptable, facts and correctness
+aren't all that important, because the tools are "fun and convenient".
+
+As already evidenced by how many people replace search and references
+with a chat bot (_without_ the due diligence after). And how little we
+value these properties in general.
+
+This insight depresses me, but alas, it rings plausible.
+
+This would continue to undermine our shared reality and trust (since too
+often, multiple people asking the same question would generate different
+responses), and continue the erosion of quality.
+
+I hope we'd still see improvements in the tools to the point where this
+is at least less of a problem.
+
+It might also lead to a further stratification of knowledge and tech
+use; similar to how we have different qualities of many other products
+available at different price points.
+
+There is also a reasonably straightforward fix to prevent the worst:
+**product liability for the generated responses** (that can't simply be
+subverted by adding "use at your own risk" disclaimers).
+
+While it might not matter that the bot got someone's birthday wrong,
+I've had the chat bot suggest that it would be a "fun experiment" to use
+my [espresso maker](https://9barista.com/) for pressure extraction of
+vegetables (which, in technical terms, we call a "bomb"); without any
+such caveats and response to an innocent prompt.
+
+And similarly, if a company offers a chat bot as a support tool, the
+company *should* be held liable and accountable for what that tool
+recommends.
+
+Regulation and enforcement thereof is key.
+
+## 2025-08-04
+
+Cleaned up (hopefully) the example on "negative" hallucinations.
+
+Added the Anthropomorphization Trap section.
 

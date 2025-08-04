@@ -194,13 +194,12 @@ sources used into their contexts.
 
 For example, when Claude.ai's Opus 4 (an expensive to train and
 expensive to use model with extended thinking and "deep research"
-enabled) generates a "report" in response to a fairly well-crafted
-prompt asking about a product's specification includes a long
-explanation that it couldn't find the required facts to answer the
-question, claiming to have "extensively" researched the official
-channels, technical forums, etc (stating to have incorporated **541**
-sources), and then proceeds from that assumption to generate the rest of
-the response —
+enabled) "report" in response to a fairly well-crafted prompt asking
+about a product's specification includes a long explanation that it
+couldn't find the required facts to answer the question, claiming to
+have "extensively" researched the official channels, technical forums,
+etc (stating to have incorporated **541** sources), and then proceeds
+from that assumption to generate the rest of the response —
 
 This *might* be reasonable and certainly reads as such, right? It
 researched way more sources than any human would have.

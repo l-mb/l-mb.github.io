@@ -211,7 +211,7 @@ Yes, that should not be surprising if you understand their constraints.
 
 But that's not hallucination, either.
 
-From the perspective of the user, that is failure.
+From the perspective of the user, that is **failure**.
 
 Yes. This is not a good use case for LLMs; but it is one they are
 explicitly marketed for. I cringe whenever I see someone suggest to

@@ -1,5 +1,5 @@
 +++
-title = "The AImperor's New Clothes Are Neither Absent Nor Impeccable"
+title = "The AImperor is Neither Naked nor Impeccably Dressed"
 date = "2025-08-02"
 draft = false
 

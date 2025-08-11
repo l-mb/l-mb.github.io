@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>OpenSourcerer.eu - Website</title>
+    <subtitle>Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://opensourcerer.eu/tags/website/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://opensourcerer.eu"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2024-10-24T00:00:00+00:00</updated>
+    <id>https://opensourcerer.eu/tags/website/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Introducing OpenSourcerer.eu</title>
+        <published>2024-10-24T00:00:00+00:00</published>
+        <updated>2024-10-24T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://opensourcerer.eu/intro/"/>
+        <id>https://opensourcerer.eu/intro/</id>
+        
+        <content type="html" xml:base="https://opensourcerer.eu/intro/">&lt;h1 id=&quot;welcome&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#welcome&quot; aria-label=&quot;Anchor link for: welcome&quot;&gt;Welcome&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;Welcome to my - Lars Marowsky-Brée&#x27;s - new site!&lt;&#x2F;p&gt;
+&lt;p&gt;My aim is to complement my social media and other channels with more
+Free, Libre, Open Source, IT, tech focused content, as &lt;a href=&quot;https:&#x2F;&#x2F;opensourcerer.eu&#x2F;about&#x2F;&quot;&gt;explained on the
+about page&lt;&#x2F;a&gt; in more detail.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;tech-stack&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#tech-stack&quot; aria-label=&quot;Anchor link for: tech-stack&quot;&gt;Tech stack&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;I need the barrier to writing and posting an article to be reasonably
+low, and I have very low requirements on functionality, features, and
+design.&lt;&#x2F;p&gt;
+&lt;p&gt;Hence, this site uses a &lt;em&gt;Static Site Generator&lt;&#x2F;em&gt;, more specifically
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;getzola.org&#x2F;&quot;&gt;Zola&lt;&#x2F;a&gt; to generate the web presence from Markdown
+formatted content.&lt;&#x2F;p&gt;
+&lt;p&gt;I opted for this path over dynamic site builders since it just fits my
+workflow and preferences better. Similarly, I recognize there are other
+options than Zola.&lt;&#x2F;p&gt;
+&lt;p&gt;GitHub Pages, where I&#x27;m hosting this site mainly because of the very low
+cost (zero is hard to beat, and while it is an &quot;unnecessary&quot;
+entanglement with a US-based tech giant, I think the practical impact is
+miniscule and easy to remove in the future if the need arises) and easy
+integration with a text- &amp;amp; git-based workflow, offers Jekyll natively,
+but I did in the past find that somewhat more tricky to use and build
+the site locally for testing; and I had no interest in learning Ruby and
+Gems.&lt;&#x2F;p&gt;
+&lt;p&gt;The most likely alternative would have been &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;gohugo.io&#x2F;&quot;&gt;Hugo&lt;&#x2F;a&gt;.
+Yet, my needs are entirely trivial, and Zola just appealed to me more,
+plus &lt;em&gt;if&lt;&#x2F;em&gt; I ever have to investigate something in the core code, it&#x27;d
+allow me to learn some more Rust. Win-win!&lt;&#x2F;p&gt;
+&lt;p&gt;And while I have obviously immediately hit
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;getzola&#x2F;zola&#x2F;issues&#x2F;2677&quot;&gt;one&lt;&#x2F;a&gt; or
+&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;zola.discourse.group&#x2F;t&#x2F;page-wide-data-shortcodes-macros&#x2F;2340&#x2F;2&quot;&gt;two&lt;&#x2F;a&gt;
+limitations, I&#x27;m still quite happy with this choice. Since all content
+is based on Markdown, I assume a transition to something else in the
+future would be straightforward anyway.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;future&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#future&quot; aria-label=&quot;Anchor link for: future&quot;&gt;Future&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;p&gt;I have no fixed schedule for content to appear on this site; since it&#x27;s
+a hobbyist project besides my actual job and personal life, don&#x27;t expect
+new content too frequently.&lt;&#x2F;p&gt;
+&lt;p&gt;However, I have been known to &lt;del&gt;go off on rants when something annoys me&lt;&#x2F;del&gt;
+have well-researched opinions on significant topics and an interest in
+sharing those thoughts publicly.&lt;&#x2F;p&gt;
+&lt;p&gt;So I look forward to engaging with y&#x27;all!&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

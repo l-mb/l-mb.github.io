@@ -28,31 +28,31 @@ I am very sorely tempted indeed to adopt it as the license for this website.
 
 ### Preamble
 
-By ancient rites, this work is bound,
+By ancient rites, this work is bound,  
 No mortal hand may twist it 'round.
 
 ### Terms of Use
 
-Permission granted: to mend and make,
-To copy, share, for spirit's sake.
-Yet mark: no coin, no profit gained,
-Shall taint this magic, unrestrained.
-Removed not shall all names be,
+Permission granted: to mend and make,  
+To copy, share, for spirit's sake.  
+Yet mark: no coin, no profit gained,  
+Shall taint this magic, unrestrained.  
+Removed not shall all names be,  
 as thou pass it onwards free.
 
 ### Disclaimer
 
-Provided "as is," without a truth,
-No crone will blame, if ill, forsooth.
-This work is dire and scribed for fun,
+Provided "as is," without a truth,  
+No crone will blame, if ill, forsooth.  
+This work is dire and scribed for fun,  
 Of warranties thus I grant you none.
 
 ### Enforcement
 
-The pact by moonlight, strongly spun,
-Binds souls if greed hath now been won.
+The pact by moonlight, strongly spun,  
+Binds souls if greed hath now been won.  
 
 ### Cost
 
-The threads are spun, the spell complete,
-No greed, lest curses, you shall meet.
+The threads are spun, the spell complete,  
+No greed, lest curses, you shall meet.  

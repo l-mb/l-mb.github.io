@@ -9,5 +9,3 @@ template = "index.html"
 
 With sincere apologies, but you came to this site before it is ready.
 Move on for now, and let's meet again in the future :-)
-
-

@@ -550,4 +550,3 @@ Regulation and enforcement thereof is key.
 Cleaned up (hopefully) the example on "negative" hallucinations.
 
 Added the Anthropomorphization Trap section.
-

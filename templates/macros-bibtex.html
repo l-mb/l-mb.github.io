@@ -3,48 +3,48 @@
 {% endmacro bibstrip %}
 
 {% macro bib_book(ref) %}
-    {{ ref.tags.author }}, 
-    <em>{{ ref.tags.title }}</em>, 
-    {{ ref.tags.publisher }}, 
+    {{ ref.tags.author }},
+    <em>{{ ref.tags.title }}</em>,
+    {{ ref.tags.publisher }},
     {{ ref.tags.year }}
 {% endmacro bib_book %}
 
 {% macro bib_article(ref) %}
-    {{ ref.tags.author }}, 
-    "{{ ref.tags.title }}", 
-    <em>{{ ref.tags.journal }}</em>, 
-    vol. {{ ref.tags.volume }}, 
-    {{ ref.tags.number}}, 
+    {{ ref.tags.author }},
+    "{{ ref.tags.title }}",
+    <em>{{ ref.tags.journal }}</em>,
+    vol. {{ ref.tags.volume }},
+    {{ ref.tags.number}},
     pp. {{ ref.tags.pages }},
     {% if ref.tags.month %}{{ ref.tags.month }}{% endif %}
     {{ ref.tags.year }}
 {% endmacro bib_article %}
 
 {% macro bib_inproceedings(ref) %}
-    {{ ref.tags.author }}, 
-    "{{ ref.tags.title }}," 
-    in <em>{{ ref.tags.booktitle }}</em>, 
+    {{ ref.tags.author }},
+    "{{ ref.tags.title }},"
+    in <em>{{ ref.tags.booktitle }}</em>,
     {{ ref.tags.address }},
-    {{ ref.tags.year }}, 
+    {{ ref.tags.year }},
     pp. {{ ref.tags.pages }}
 {% endmacro bib_inproceedings %}
 
 {% macro bib_manual(ref) %}
-    {{ ref.tags.author }}, 
+    {{ ref.tags.author }},
     <em>{{ ref.tags.title }}</em>,
     {{ ref.tags.organization }},
-    {{ ref.tags.address }}, 
+    {{ ref.tags.address }},
     {% if ref.tags.edition %}{{ ref.tags.edition }},{% endif %}
     {% if ref.tags.month %}{{ ref.tags.month }}{% endif %}
     {{ ref.tags.year }}.
 {% endmacro bib_manual %}
 
 {% macro bib_thesis(ref, type) %}
-    {{ ref.tags.author }}, 
-    "{{ ref.tags.title }}," 
+    {{ ref.tags.author }},
+    "{{ ref.tags.title }},"
     {{ type }},
     {{ ref.tags.school }},
-    {{ ref.tags.address }}, 
+    {{ ref.tags.address }},
     {{ ref.tags.year }}
 {% endmacro bib_thesis %}
 

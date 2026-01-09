@@ -30,4 +30,3 @@ While I strive to make that a priority, I have sometimes found that - as
 a non-native speaker in particular who has learned certain words as
 technical terminology only - I was not aware that certain choices were
 exclusionary or discriminatory.
-

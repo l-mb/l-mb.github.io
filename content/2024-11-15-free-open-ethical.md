@@ -271,5 +271,3 @@ took not to disappear on a side quest of citation mgmt in Zola -->
 
 <!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->
 <!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->
-
-

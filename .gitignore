@@ -1,19 +1,52 @@
+# Build output
+public/
+build/
+
+# Dependencies
+node_modules/
+
+# Environment/secrets
 .env
-public
-themes
-build
-storage
-node_modules
-package-lock.json
-static/demo.html
-static/tinysearch_engine.js
-static/tinysearch_engine.d.ts
-static/tinysearch_engine_bg.wasm.d.ts
-static/package.json
-static/js/pagefind.js
-static/js/pagefind-*.js
-static/js/pagefind-*.css
-static/js/pagefind.*.pf_meta
-static/js/index
-static/js/fragment
+.env.*
+
+# Editor/IDE
 *~
+*.swp
+*.swo
+*.bak
+.idea/
+.vscode/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Sass cache
+.sass-cache/
+
+# Temporary files
+tmp/
+storage/
+
+# npm (theme tooling only)
+package-lock.json
+
+# Pagefind search artifacts
+static/js/pagefind*.js
+static/js/pagefind*.css
+static/js/pagefind*.pf_meta
+static/js/index/
+static/js/fragment/
+
+# Tinysearch artifacts (legacy)
+static/tinysearch_engine.*
+static/package.json
+
+# Theme demo files
+static/demo.html
+
+# No:
+CLAUDE.md
+AGENTS.md
+GEMINI.md

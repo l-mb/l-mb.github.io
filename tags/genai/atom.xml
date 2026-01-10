@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>OpenSourcerer.eu - GenAI</title>
+    <subtitle>Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT</subtitle>
+    <link rel="self" type="application/atom+xml" href="https://opensourcerer.eu/tags/genai/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://opensourcerer.eu"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2025-08-02T00:00:00+00:00</updated>
+    <id>https://opensourcerer.eu/tags/genai/atom.xml</id>
+    <entry xml:lang="en">
+        <title>The AImperor is Neither Naked nor Impeccably Dressed</title>
+        <published>2025-08-02T00:00:00+00:00</published>
+        <updated>2025-08-02T00:00:00+00:00</updated>
+        
+        <author>
+          <name>
+            
+              Unknown
+            
+          </name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://opensourcerer.eu/the-aimperors-new-clothes/"/>
+        <id>https://opensourcerer.eu/the-aimperors-new-clothes/</id>
+        
+        <content type="html" xml:base="https://opensourcerer.eu/the-aimperors-new-clothes/">&lt;h2 id=&quot;the-difficulty-of-polarized-discourse&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-difficulty-of-polarized-discourse&quot; aria-label=&quot;Anchor link for: the-difficulty-of-polarized-discourse&quot;&gt;The Difficulty of Polarized Discourse&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Generative AI, particularly LLMs, is very difficult to converse about,
+unless you managed to find a rare group of people open to dialogue.&lt;&#x2F;p&gt;
+&lt;p&gt;If you imply LLMs have any value rather than outright condemning them,
+the people fundamentally opposed to them will throw you in with the
+hypists and slopsters.&lt;&#x2F;p&gt;
+&lt;p&gt;If you want to discuss their limits and constraints instead of praising
+them, you will be seen as a naysayer, a fossil, and probably get called
+a Luddite (and not as the praise it should be).&lt;&#x2F;p&gt;
+&lt;p&gt;There is also an elephant in the room — the harm associated with
+generative AI and LLMs. For now, I will do the unspeakable &lt;em&gt;and ignore
+it&lt;&#x2F;em&gt;. But I promise I&#x27;ll get back to it before this blog is done, and
+explain why.&lt;&#x2F;p&gt;
+&lt;p&gt;We need to overcome these tensions if we are to find a path forward. And
+we must, since LLMs and generative AI &lt;em&gt;exist&lt;&#x2F;em&gt;, are part of our shared
+reality, seen to be shiny by some (for various reasons), and (for
+complex reasons) get added to quite literally everything.&lt;&#x2F;p&gt;
+&lt;p&gt;As a profession, we owe it to our users, customers, and community
+members to do better.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;denial-is-not-a-strategy&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#denial-is-not-a-strategy&quot; aria-label=&quot;Anchor link for: denial-is-not-a-strategy&quot;&gt;Denial is not a strategy&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;I will start by first talking to the side I feel most closely aligned
+with: those of us who are critical of GenAI and LLMs in particular.
+(I&#x27;ll mostly limit myself to LLMs here; while I believe the general
+thoughts apply more broadly, I&#x27;m not as familiar.)&lt;&#x2F;p&gt;
+&lt;p&gt;Denigrating all use of generative AI as pointless is not constructive,
+nor credible.&lt;&#x2F;p&gt;
+&lt;p&gt;Why?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Because it&#x27;s a claim that flies in the face of the lived experience of
+everyone who has ever sincerely experimented with it.&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Everyone who has done so (and taken at least a wee bit of time to get
+familiar with a new and different tool) will have found scenarios where
+LLMs are mind-blowing in comparison to what we had before.&lt;&#x2F;p&gt;
+&lt;p&gt;For breaking through the &quot;staring at a blank page&quot; stage of any sort of
+project, translations (of both human and programming languages, and even
+between those two domains), a thesaurus and brain-storming tool with no
+equal (except maybe the trusty rubber duck), approximate
+summarization, proximity search, providing feedback on tone and not just
+syntax, to, yes, &quot;vibe coding&quot; of random prototypes for whatever, the
+list goes on: it can be both useful &lt;em&gt;and&lt;&#x2F;em&gt; fun.&lt;&#x2F;p&gt;
+&lt;p&gt;Speaking of software engineering, seasoned professional engineers I
+highly respect and personally know report impressive results (with, yes,
+caveats; we&#x27;ll get to those). It would be hubris to dismiss all of their
+insights.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;learning-curve&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#learning-curve&quot; aria-label=&quot;Anchor link for: learning-curve&quot;&gt;Learning curve&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;And no, not all examples where LLMs generate bad responses are
+constructive. You have to take how the tool works into account when you
+use it.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes, I also laugh when they seemingly can&#x27;t count the number of
+occurrences of the letter &quot;r&quot; in the word &quot;strawberry&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;This is only a good example if you pair it with &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.runpod.io&#x2F;blog&#x2F;llm-tokenization-limitations&quot;&gt;an explanation as to
+&lt;em&gt;why&lt;&#x2F;em&gt;&lt;&#x2F;a&gt;, and how
+to &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;deepgains.substack.com&#x2F;p&#x2F;why-do-llms-struggle-with-counting&quot;&gt;wield the tool to actually achieve the
+goal&lt;&#x2F;a&gt;:
+ask it to write a python script to do it; it can probably write MMIX
+better than you.&lt;&#x2F;p&gt;
+&lt;p&gt;If you stop at laughing, folks will assume you&#x27;ve never tried in
+earnest.&lt;&#x2F;p&gt;
+&lt;p&gt;If you can&#x27;t at least hold the tool right, people will dismiss your
+opinion; that&#x27;s not a credible position to argue from.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;perfection-is-overrated-sometimes&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#perfection-is-overrated-sometimes&quot; aria-label=&quot;Anchor link for: perfection-is-overrated-sometimes&quot;&gt;Perfection is overrated (sometimes)&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;Not all scenarios need perfection. The LLM may generate a response you
+wouldn&#x27;t merge or write yourself; doesn&#x27;t mean it&#x27;s not useful in the
+cases it does successfully one-shot an acceptable answer, possibly with
+some polishing or minimal re-prompting.&lt;&#x2F;p&gt;
+&lt;p&gt;And especially to users who have a scenario where long-term
+maintainability or even performance is perhaps a secondary concern, it
+is more useful to have a working answer than a better one.&lt;&#x2F;p&gt;
+&lt;p&gt;AI may not raise the ceiling, but it does raise the floor. And there is
+value in that.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;let-s-admit-it&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#let-s-admit-it&quot; aria-label=&quot;Anchor link for: let-s-admit-it&quot;&gt;Let&#x27;s admit it&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;Sorry, but you can&#x27;t tell me it is not technically rather amazing what
+we can achieve with what is, at the heart of it, probabilistic text
+transformation with a pinch of Lady Luck.&lt;&#x2F;p&gt;
+&lt;p&gt;Plus, as an engineer, I find the sheer scale of the deployments and
+operations incredible.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;acknowledge-people-s-experience&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#acknowledge-people-s-experience&quot; aria-label=&quot;Anchor link for: acknowledge-people-s-experience&quot;&gt;Acknowledge people&#x27;s experience&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;If you want to reach people, you have to acknowledge this instead of
+denying it; rejecting it entirely means you are easy to dismiss. That is
+not the way to a constructive discourse.&lt;&#x2F;p&gt;
+&lt;p&gt;Only if you — we — are also honest about what the LLMs &lt;em&gt;can&lt;&#x2F;em&gt; do will we
+be taken seriously and be credible when we discuss their limits and
+constraints.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;on-the-other-hand&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#on-the-other-hand&quot; aria-label=&quot;Anchor link for: on-the-other-hand&quot;&gt;On the other hand ...&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;On the other hand, every expert who has, in their field, sincerely
+experimented with LLMs also knows they have severe limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;And we must be honest about those if we want to model LLMs appropriately
+in our minds (instead of falling into the trap of anthropomorphizing
+them), which is a pre-requisite to using them where they make sense, and
+make sensible use of their outputs. And avoiding their use where they
+are not the right tool for the job.&lt;&#x2F;p&gt;
+&lt;p&gt;Honestly? I&#x27;d not know where to start with my own anecdotes regarding
+that. I have so many.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;our-intuition-fails-us&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#our-intuition-fails-us&quot; aria-label=&quot;Anchor link for: our-intuition-fails-us&quot;&gt;Our intuition fails us&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;And I am not surprised, because I (at the most high-level, admittedly)
+understand how they work. And I understand why many people who are not
+themselves tech experts do not grasp this well.&lt;&#x2F;p&gt;
+&lt;p&gt;We all (except for the youngest of us) have some intuition about what
+computers are good at:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;they do math fast and correctly,&lt;&#x2F;li&gt;
+&lt;li&gt;they can retrieve factual data from large sets,&lt;&#x2F;li&gt;
+&lt;li&gt;they are reliable,&lt;&#x2F;li&gt;
+&lt;li&gt;they produce reproducible outcomes.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Once you got a response, barring bugs, you could likely trust it.&lt;&#x2F;p&gt;
+&lt;p&gt;LLMs &lt;em&gt;fail&lt;&#x2F;em&gt; at all of these, and largely don&#x27;t do any of this when you
+throw them a prompt. (Yes, Retrieval-Augmented Generation
+non-withstanding.)&lt;&#x2F;p&gt;
+&lt;p&gt;They are not fast. They do not look-up facts. They are not databases.
+They are not reliable. And they are so non-reproducible that Monte Carlo
+multi-shot (give the problem to LLMs multiple times, hoping one answer
+is good enough) is a viable tactic. You can&#x27;t trust the response.&lt;&#x2F;p&gt;
+&lt;p&gt;Clearly, at the very least, this requires a period of adjustment,
+combined with honest education and training: the outputs from these
+tools need to be treated quite differently. Both of which most of us
+were not given before being exposed to it.&lt;&#x2F;p&gt;
+&lt;p&gt;And their generated responses sound very plausible and confident;
+because that is what they were trained on. Few people write and publish
+content when they are severely doubting themselves.&lt;&#x2F;p&gt;
+&lt;p&gt;This is likely obvious to you if you found your way to my blog; but it
+is &lt;em&gt;not&lt;&#x2F;em&gt; obvious to society at large, still.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;the-limitations-are-glaring&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-limitations-are-glaring&quot; aria-label=&quot;Anchor link for: the-limitations-are-glaring&quot;&gt;The limitations are glaring&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;At the time of this writing, even the latest and expensive &quot;frontier&quot;
+models available, such as provided by OpenAI or Claude.ai, &quot;fail&quot; in
+fairly spectacular ways that no human would, unless severely
+incapacitated.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;hallucination-is-a-euphemism&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#hallucination-is-a-euphemism&quot; aria-label=&quot;Anchor link for: hallucination-is-a-euphemism&quot;&gt;Hallucination is a Euphemism&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;LLMs are non-reproducible as a fundamental design choice, since some
+amount of randomness is part of their inference process. This can be
+useful for brain storming, but also means that - from the point of view
+of a user - they occasionally &quot;invent&quot; stuff that doesn&#x27;t exist.&lt;&#x2F;p&gt;
+&lt;p&gt;LLMs &quot;hallucinate&quot; facts, citations, and references because it is likely
+that such sources would exist and be cited by a human. This is somewhat
+well-known by now.&lt;&#x2F;p&gt;
+&lt;p&gt;But the opposite also happens: they hallucinate the &lt;em&gt;absence&lt;&#x2F;em&gt; of
+information when they don&#x27;t fully and&#x2F;or accurately incorporate the
+sources used into their contexts.&lt;&#x2F;p&gt;
+&lt;p&gt;For example, when Claude.ai&#x27;s Opus 4 (an expensive to train and
+expensive to use model with extended thinking and &quot;deep research&quot;
+enabled) &quot;report&quot; in response to a fairly well-crafted prompt asking
+about a product&#x27;s specification includes a long explanation that it
+couldn&#x27;t find the required facts to answer the question, claiming to
+have &quot;extensively&quot; researched the official channels, technical forums,
+etc (stating to have incorporated &lt;strong&gt;541&lt;&#x2F;strong&gt; sources), and then proceeds
+from that assumption to generate the rest of the response —&lt;&#x2F;p&gt;
+&lt;p&gt;This &lt;em&gt;might&lt;&#x2F;em&gt; be reasonable and certainly reads as such, right? It
+researched way more sources than any human would have.&lt;&#x2F;p&gt;
+&lt;p&gt;However: the &quot;missing&quot; detail was clearly part of the very product page
+provided as part of the prompt itself.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes, that should not be surprising if you understand their constraints.&lt;&#x2F;p&gt;
+&lt;p&gt;But that&#x27;s not hallucination, either.&lt;&#x2F;p&gt;
+&lt;p&gt;From the perspective of the user, that is &lt;strong&gt;failure&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Yes. This is not a good use case for LLMs; but it is one they are
+explicitly marketed for. I cringe whenever I see someone suggest to
+query an LLM for facts or research. (Unless, of course, they really
+cross-check all assumptions, which experience with even university-grade
+work suggests is not going to happen.)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;the-anthropomorphization-trap&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-anthropomorphization-trap&quot; aria-label=&quot;Anchor link for: the-anthropomorphization-trap&quot;&gt;The Anthropomorphization Trap&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;Since the models present as human language conversation, humans tend to
+assume they behave similarly to how a human would.&lt;&#x2F;p&gt;
+&lt;p&gt;e.g., when we correct them, they apologize and produce a different
+response. Humans even go so far as assuming the model was &quot;testing&quot; them
+with its errors to see if they were paying attention.&lt;&#x2F;p&gt;
+&lt;p&gt;We might assume that they are confident when their language sounds
+confident. We ascribe intent, even emotions, based on the generated
+outputs. We fall for it when it congratulates us or pays our prompt a
+compliment.&lt;&#x2F;p&gt;
+&lt;p&gt;Of course, none of that is true. But it is very difficult to talk to
+LLMs without using such language, and without falling into the trap of
+using mental models of humans to relate to the LLMs.&lt;&#x2F;p&gt;
+&lt;p&gt;(People go as far as threatening them to get supposedly better outputs;
+which, honestly, &lt;em&gt;if&lt;&#x2F;em&gt; those people assume they do indeed have emotions
+affecting their results, is pretty screwed up.)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;if-everything-you-have-is-an-llm&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#if-everything-you-have-is-an-llm&quot; aria-label=&quot;Anchor link for: if-everything-you-have-is-an-llm&quot;&gt;If everything you have is an LLM ...&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;... then everything must become a conversation.&lt;&#x2F;p&gt;
+&lt;p&gt;This is why even my bank&#x27;s very reasonable request for me to check my
+contact details suggests only the path of &quot;ask our chat bot for your
+address and chat with it to correct it if needed&quot; — instead of just
+pointing me at a simple form to click &quot;OK&quot; on.&lt;&#x2F;p&gt;
+&lt;p&gt;(I will allow that some people prefer conversation over other forms of
+interactions, regardless of efficiency, but we see this shoved into
+every system at the cost of the other approaches.)&lt;&#x2F;p&gt;
+&lt;p&gt;LLMs are now used for everything, even when they&#x27;re not the best answer
+we have. Be it a database look-up or even different forms of ML&#x2F;AI, all
+the attention is on LLMs.&lt;&#x2F;p&gt;
+&lt;p&gt;Due to similar dynamics, they are used to hide problems that should be
+addressed at the root cause. By all means, use an LLM for heuristic
+search for your documentation — but don&#x27;t use the LLM to provide the
+answer (with possible corruption). Instead fix your docs to be better!
+(Ironically, this will make your product better to interact with by LLMs
+...)&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;and-the-operators-know&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#and-the-operators-know&quot; aria-label=&quot;Anchor link for: and-the-operators-know&quot;&gt;And the operators know&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;Support chats now almost always include the disclaimer of &quot;this is an AI
+model. It can make mistakes.&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;When I reach out to support, I want a correct answer. Or at least one I
+can hold the company who I&#x27;m in contact with to account for.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.linkedin.com&#x2F;pulse&#x2F;dont-direct-your-users-chat-bots-support-lars-marowsky-br%C3%A9e-pcgoe&#x2F;&quot;&gt;Over on LinkedIn I have argued that this is another case of holding the
+tool
+wrong&lt;&#x2F;a&gt;
+and that it should be done better and how.&lt;&#x2F;p&gt;
+&lt;p&gt;But the current common approach is simply infuriating: it focuses only
+on cost reduction for the provider, at the expense of the consumer. and
+not on better outcomes for the consumer.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;facts&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#facts&quot; aria-label=&quot;Anchor link for: facts&quot;&gt;Facts?&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;You have to double-check every thing the generated response claims,
+because you only get back a statistically likely answer relative to the
+data the system was trained on, plus some intentional randomness. Not
+facts the system looked up in response to your query.&lt;&#x2F;p&gt;
+&lt;p&gt;This may be particularly annoying to people in whose work and interests
+facts and all details very much do matter. And if I may be so snarky, I
+think a lot of the LLM hype is generated by people who operate in
+spheres where the shared reality is more subject to negotiation.&lt;&#x2F;p&gt;
+&lt;p&gt;The same is pretty much true for most other (generative) AI use cases,
+from image generation to text transcripts and voice: that they appear
+plausible to casual human inspection is not the same thing as them being
+&lt;em&gt;correct&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;not-fit-for-purpose&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#not-fit-for-purpose&quot; aria-label=&quot;Anchor link for: not-fit-for-purpose&quot;&gt;Not Fit For Purpose&lt;&#x2F;a&gt;&lt;&#x2F;h4&gt;
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;&#x2F;strong&gt;: the models are &lt;strong&gt;not&lt;&#x2F;strong&gt; fit for the purposes they&#x27;re marketed and
+sold for.&lt;&#x2F;p&gt;
+&lt;p&gt;And we have no known strategy to overcome these limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;Because GPTs and LLMs have suddenly developed these apparent
+capabilities at a certain complexity and scale, our answer mostly
+consists of throwing more scale at the limits, and crossing our
+fingers.&lt;&#x2F;p&gt;
+&lt;p&gt;We have collectively sunk trillions into this. And while this yields
+improvements, the systems keep generating vastly incorrect and
+incomplete responses.&lt;&#x2F;p&gt;
+&lt;p&gt;That is not the same as saying they are not useful; I kindly refer back
+to the first part of this writing. And yet, there is an inflated
+presentation that they do not deliver on.&lt;&#x2F;p&gt;
+&lt;p&gt;They are an open research problem. The strategy might exist. But it
+might not.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;the-elephant-in-the-room&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-elephant-in-the-room&quot; aria-label=&quot;Anchor link for: the-elephant-in-the-room&quot;&gt;The Elephant in the room&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Let&#x27;s come back to the elephant in the room: the harm.&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Generative AI incurs massive environmental costs.&lt;&#x2F;li&gt;
+&lt;li&gt;A lot of the labelling is done by underpaid and exploited workers.&lt;&#x2F;li&gt;
+&lt;li&gt;A lot of the content they&#x27;re trained can only be considered IP theft
+(and &lt;em&gt;would&lt;&#x2F;em&gt; be, if it wasn&#x27;t done by billionaires).&lt;&#x2F;li&gt;
+&lt;li&gt;They are trained to read like confidence tricksters.&lt;&#x2F;li&gt;
+&lt;li&gt;For Cloud-based Generative AI, the usual privacy concerns apply.&lt;&#x2F;li&gt;
+&lt;li&gt;Generative AI is marketed with dishonest, exaggerated claims.&lt;&#x2F;li&gt;
+&lt;li&gt;It&#x27;s often pushed with the goals of wage suppression, de-skilling, and
+lay-offs.&lt;&#x2F;li&gt;
+&lt;li&gt;LLMs reproduce and thus perpetuate biases inherent in their training
+data and labeling.&lt;&#x2F;li&gt;
+&lt;li&gt;As a consequence, they also are bad at generating output of higher
+quality than their inputs; much the opposite.&lt;&#x2F;li&gt;
+&lt;li&gt;The inability to filter Generative AI outputs from future inputs will
+likely lead to model collapse.&lt;&#x2F;li&gt;
+&lt;li&gt;The way how they present their output as &quot;human&quot; language actively
+undermines our ability to not anthropomorphize them and maintain
+sensible mental models.&lt;&#x2F;li&gt;
+&lt;li&gt;Generative AI is used in ways that can only be described as massive
+denial-of-service attacks against our collective minds and society.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;Yes, I agree. These and more are excellent reasons to oppose the use of
+most generative AI.&lt;&#x2F;p&gt;
+&lt;p&gt;And yet, only some of these problems &lt;em&gt;are&lt;&#x2F;em&gt; immediately (and not just
+several quarters in the future) applicable to a business today.&lt;&#x2F;p&gt;
+&lt;p&gt;The problem with raising the rest?&lt;&#x2F;p&gt;
+&lt;p&gt;They are appeals to morality, ethics, or external costs.&lt;&#x2F;p&gt;
+&lt;p&gt;These only ever matter to businesses when politics creates policies and
+regulations that are actually enforced by the judiciary and executive.&lt;&#x2F;p&gt;
+&lt;p&gt;But if you make any of these arguments to a leader in &lt;em&gt;business&lt;&#x2F;em&gt;,
+they&#x27;ll shrug, even if they agree, if it looks like they create more
+profits for their shareholders with fewer pesky humans in the loop.
+Humans mean wages, social security payments, overhead costs. Of course
+they prefer automation.&lt;&#x2F;p&gt;
+&lt;p&gt;I respect that this is why you chose to not learn how to hold the tool.
+But then be clear about this; make moral arguments if your argument is
+moral, don&#x27;t claim the tool doesn&#x27;t and&#x2F;or can&#x27;t work.&lt;&#x2F;p&gt;
+&lt;p&gt;Note that Luddites were not opposed to progress as such; the arguments
+brought forth against all criticism of Generative AI have similarities
+with the campaigns against Luddism.&lt;&#x2F;p&gt;
+&lt;p&gt;Further note that, somehow, GenAI and LLMs are almost always brought up
+as tools to reduce the staffing needs for employees and individual
+contributors; rarely for the CxO level.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;systemic-action-is-needed&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#systemic-action-is-needed&quot; aria-label=&quot;Anchor link for: systemic-action-is-needed&quot;&gt;Systemic Action is needed&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;These are arguments you need to make to politicians and as part of your
+labour unions.&lt;&#x2F;p&gt;
+&lt;p&gt;At a business level, even an individual, these have insufficient
+traction. Neither individuals nor organizations are good enough™ for
+this. And a few individuals or even organizations changing their minds
+also has too little impact. We must address them systemically.&lt;&#x2F;p&gt;
+&lt;p&gt;These harms are not inherent to LLMs per se. They are inherent to LLMs
+&lt;em&gt;driven by shareholder-first capitalism in the pre-regulation rush&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;And it works! See the EU AI Act, and even the OSI AI Definition (as much
+as I criticize it). Regulation is always slower than the unrestrained
+gold rush. But it will catch up; we&#x27;ve seen this before. Let&#x27;s give it a
+push, together.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-genie-is-out-of-the-bottle&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-genie-is-out-of-the-bottle&quot; aria-label=&quot;Anchor link for: the-genie-is-out-of-the-bottle&quot;&gt;The genie is out of the bottle&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;At the same time, I believe it is impossible to put the genie back into
+the bottle. Yes, all these harms are real and horrible. And yet.&lt;&#x2F;p&gt;
+&lt;p&gt;If knowing that was enough, most planes would be scrapped. There would
+be no cars with ICE. Coal and gas power plants would have been shut off
+three decades ago.&lt;&#x2F;p&gt;
+&lt;p&gt;There is no going back. LLMs will be around, even if folks realize their
+limits. Because they &lt;em&gt;are&lt;&#x2F;em&gt; useful.&lt;&#x2F;p&gt;
+&lt;p&gt;We need them to be ethical and sustainable.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;is-the-aimperor-naked&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#is-the-aimperor-naked&quot; aria-label=&quot;Anchor link for: is-the-aimperor-naked&quot;&gt;Is the AImperor naked?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;&lt;em&gt;No, the emperor is not naked.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We must acknowledge this if we want to have a meaningful conversation. I
+found myself too frequently annoyed with the reductionist and dismissive
+position taken by some critics.&lt;&#x2F;p&gt;
+&lt;p&gt;But.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;The emperor is wearing bloodied rags.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;We must acknowledge this if we want to move forward. As you can probably
+tell, my position isn&#x27;t quite neutral. But our criticism needs to be
+constructive, credible, and framed appropriately for our target audience
+to have impact.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;quo-vadis&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#quo-vadis&quot; aria-label=&quot;Anchor link for: quo-vadis&quot;&gt;Quo vadis?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;This leaves us, and especially my own industry, in a risky quandary.&lt;&#x2F;p&gt;
+&lt;p&gt;While useful, I have doubts that what these models can actually achieve
+and deliver is worth their current level of investment.&lt;&#x2F;p&gt;
+&lt;p&gt;Much less so if we do eventually end up factoring in what the vendors
+currently get to consider &quot;external costs&quot; through regulation.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-optimists-could-be-right&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#the-optimists-could-be-right&quot; aria-label=&quot;Anchor link for: the-optimists-could-be-right&quot;&gt;The optimists could be right&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;There is, of course, a nonzero chance that someone does find the holy
+grail - not for &quot;General Purpose AI&quot;, but just merely, you know, for
+generative AI that doesn&#x27;t make stuff up; or at least at a statistically
+irrelevant level. A new algorithm, a new magic scale threshold.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;or-else&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#or-else&quot; aria-label=&quot;Anchor link for: or-else&quot;&gt;Or else?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;Should this fail to occur in the short- or mid-term, I suspect the
+bubble will collapse &lt;strong&gt;spectacularly&lt;&#x2F;strong&gt;. And I am &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fortune.com&#x2F;2024&#x2F;02&#x2F;26&#x2F;nvidia-ai-bubble-apollo-asset-manager-dotcom-artificial-intelligence&#x2F;&quot;&gt;not
+alone&lt;&#x2F;a&gt;
+in this prediction.&lt;&#x2F;p&gt;
+&lt;p&gt;The dotcom bubble burst in the first few years of my career. It all went
+great — right until it didn&#x27;t.&lt;&#x2F;p&gt;
+&lt;p&gt;Right now, nobody in the industry can afford for this to happen.&lt;&#x2F;p&gt;
+&lt;p&gt;Just like the real-estate-investors need Return-to-Office mandates so
+the value of their office spaces doesn&#x27;t collapse and make the subprime
+crisis look tame, all the large investors in the tech world need us to
+shove LLMs into everything to keep expanding; and pretend, hope, pray
+that there is a path to success — and that we will find it.&lt;&#x2F;p&gt;
+&lt;p&gt;There&#x27;s a reason &quot;AI&quot; features are now in everything, beyond the people
+actually believing the claims: the industry needs to show increasing
+user counts. &lt;em&gt;Or else.&lt;&#x2F;em&gt;&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;so-what-will-happen&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#so-what-will-happen&quot; aria-label=&quot;Anchor link for: so-what-will-happen&quot;&gt;So what will happen?&lt;&#x2F;a&gt;&lt;&#x2F;h3&gt;
+&lt;p&gt;My best guess? LLMs will still be around in a decade or two, and we&#x27;ll
+all use them for what they can do, with varying levels of quality of
+product. (And yes, people will still oversell them, just like with
+everything else.)&lt;&#x2F;p&gt;
+&lt;p&gt;But &lt;em&gt;somewhen&lt;&#x2F;em&gt; between then and today, there&#x27;ll be a supremely
+uncomfortable half-decade or so.&lt;&#x2F;p&gt;
+&lt;p&gt;LLMs are neither useless nor magical. They succeed at certain tasks but
+fail spectacularly at others. The problem isn&#x27;t the technology but
+shareholder capitalism without adequate regulation.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;and-until-then&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#and-until-then&quot; aria-label=&quot;Anchor link for: and-until-then&quot;&gt;And until then?&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Until then, let&#x27;s do our best. Perhaps limit their use, as far as your
+job permits. Don&#x27;t hate yourself or others if you decide that to stay
+competitive, you have no choice. Be mindful. Strive to maintain an
+appropriate mental model of the tool. Use the more ethical options. Not
+everything can be offset entirely, but donate to the restoration of
+swamps and other offsetting approaches. Donate to educational charities
+to raise awareness. Advocate for ethical and sustainable approaches.
+Write to your legislators and regulators (policy proposals are beyond
+the scope of this article). Have meaningful conversations with your
+corporate leadership about how to lower costs &lt;em&gt;and&lt;&#x2F;em&gt; improve quality. Be
+realistic about what you can achieve if they are owned by investors that
+are also owning AI companies. Unionize. Don&#x27;t guilt-trip folks who use
+them, but educate them from a position of understanding. Walk the line
+between denial and hype.&lt;&#x2F;p&gt;
+&lt;p&gt;Oh, and diversify your stocks.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;addenda&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#addenda&quot; aria-label=&quot;Anchor link for: addenda&quot;&gt;Addenda&lt;&#x2F;a&gt;&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;2025-08-03&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#2025-08-03&quot; aria-label=&quot;Anchor link for: 2025-08-03&quot;&gt;2025-08-03&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;It&#x27;s been brought to my attention that one assumption might be overly
+optimistic: that &quot;not fit for purpose&quot; would lead to significantly lower
+adoption (to the point of collapsing parts of the bubble, at least),
+especially when it comes to factual correctness and reliability.&lt;&#x2F;p&gt;
+&lt;p&gt;It&#x27;s of course also a possibility that &quot;we&quot; collectively decide that,
+for many more scenarios than I&#x27;d deem acceptable, facts and correctness
+aren&#x27;t all that important, because the tools are &quot;fun and convenient&quot;.&lt;&#x2F;p&gt;
+&lt;p&gt;As already evidenced by how many people replace search and references
+with a chat bot (&lt;em&gt;without&lt;&#x2F;em&gt; the due diligence after). And how little we
+value these properties in general.&lt;&#x2F;p&gt;
+&lt;p&gt;This insight depresses me, but alas, it rings plausible.&lt;&#x2F;p&gt;
+&lt;p&gt;This would continue to undermine our shared reality and trust (since too
+often, multiple people asking the same question would generate different
+responses), and continue the erosion of quality.&lt;&#x2F;p&gt;
+&lt;p&gt;I hope we&#x27;d still see improvements in the tools to the point where this
+is at least less of a problem.&lt;&#x2F;p&gt;
+&lt;p&gt;It might also lead to a further stratification of knowledge and tech
+use; similar to how we have different qualities of many other products
+available at different price points.&lt;&#x2F;p&gt;
+&lt;p&gt;There is also a reasonably straightforward fix to prevent the worst:
+&lt;strong&gt;product liability for the generated responses&lt;&#x2F;strong&gt; (that can&#x27;t simply be
+subverted by adding &quot;use at your own risk&quot; disclaimers).&lt;&#x2F;p&gt;
+&lt;p&gt;While it might not matter that the bot got someone&#x27;s birthday wrong,
+I&#x27;ve had the chat bot suggest that it would be a &quot;fun experiment&quot; to use
+my &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;9barista.com&#x2F;&quot;&gt;espresso maker&lt;&#x2F;a&gt; for pressure extraction of
+vegetables (which, in technical terms, we call a &quot;bomb&quot;); without any
+such caveats and response to an innocent prompt.&lt;&#x2F;p&gt;
+&lt;p&gt;And similarly, if a company offers a chat bot as a support tool, the
+company &lt;em&gt;should&lt;&#x2F;em&gt; be held liable and accountable for what that tool
+recommends.&lt;&#x2F;p&gt;
+&lt;p&gt;Regulation and enforcement thereof is key.&lt;&#x2F;p&gt;
+&lt;h2 id=&quot;2025-08-04&quot;&gt;&lt;a class=&quot;zola-anchor&quot; href=&quot;#2025-08-04&quot; aria-label=&quot;Anchor link for: 2025-08-04&quot;&gt;2025-08-04&lt;&#x2F;a&gt;&lt;&#x2F;h2&gt;
+&lt;p&gt;Cleaned up (hopefully) the example on &quot;negative&quot; hallucinations.&lt;&#x2F;p&gt;
+&lt;p&gt;Added the Anthropomorphization Trap section.&lt;&#x2F;p&gt;
+</content>
+        
+    </entry>
+</feed>

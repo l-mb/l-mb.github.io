@@ -16,7 +16,7 @@ jobs:
         with:
           submodules: recursive
       - name: Build only
-        uses: shalzz/zola-deploy-action@v0.21.0
+        uses: shalzz/zola-deploy-action@v0.22.0
         env:
           BUILD_DIR: .
           BUILD_ONLY: true
@@ -34,7 +34,7 @@ jobs:
         with:
           submodules: recursive
       - name: Build and deploy
-        uses: shalzz/zola-deploy-action@v0.21.0
+        uses: shalzz/zola-deploy-action@v0.22.0
         env:
           BUILD_DIR: .
           PAGES_BRANCH: gh-pages

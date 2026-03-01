@@ -32,6 +32,9 @@ storage/
 # npm (theme tooling only)
 package-lock.json
 
+# Zola-generated syntax highlighting CSS (abridge handles this via SCSS)
+static/giallo*.css
+
 # Pagefind search artifacts
 static/js/pagefind*.js
 static/js/pagefind*.css

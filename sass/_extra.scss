@@ -1,0 +1,4 @@
+// Readable line length for posts and pages; the index keeps its sidebar layout.
+main > :only-child {
+    max-width: 75ch;
+}

@@ -260,14 +260,14 @@ Hollerith tabulating machine.
 <!-- Don't come at me how ugly this is, you know how much willpower it
 took not to disappear on a side quest of citation mgmt in Zola -->
 
-{{ bib(num=1, desc="OSI (2007), “The Open Source Definition v1.9”. Accessed: 2024-11-15", url="https://opensource.org/osd") }}
-{{ bib(num=2, desc="Free Software Foundation (2024), “What is Free Software?”, GNU.org. Accessed: 2024-11-15", url="https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms") }}
-{{ bib(num=3, desc="Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02", url="https://hackmd.io/@opensourceinitiative/osaid-faq#Why-do-you-allow-the-exclusion-of-some-training-data") }}
-{{ bib(num=4, desc="Marowsky-Brée (2024-11), “Notes on Open Source AI Definition”", url="https://opensourcerer.eu/osaid-v1-0-notes/") }}
-{{ bib(num=5, desc="Organization for Ethical Source, “The Hippocratice License”. Accessed: 2024-11-15", url="https://firstdonoharm.dev/") }}
-{{ bib(num=6, desc="Whelchel (1986), “Is Technology Neutral?”, IEEE. Accessed: 2024-11-15", url="https://ieeexplore.ieee.org/document/5010049") }}
-{{ bib(num=7, desc="OSI (2024), “Frequently Asked Questions”. Accessed: 2024-11-15", url="https://opensource.org/faq#evil") }}
-{{ bib(num=8, desc="Corbet (2024), “Several Russian developers lose kernel maintainership status”, LWN.net. Accessed: 2024-11-15", url="https://lwn.net/Articles/995186/") }}
+{{ <bib num={1} desc="OSI (2007), “The Open Source Definition v1.9”. Accessed: 2024-11-15" url="https://opensource.org/osd" /> }}
+{{ <bib num={2} desc="Free Software Foundation (2024), “What is Free Software?”, GNU.org. Accessed: 2024-11-15" url="https://www.gnu.org/philosophy/free-sw.en.html#four-freedoms" /> }}
+{{ <bib num={3} desc="Open Source Initiative, “OSAID FAQ”. Accessed: 2024-11-02" url="https://hackmd.io/@opensourceinitiative/osaid-faq#Why-do-you-allow-the-exclusion-of-some-training-data" /> }}
+{{ <bib num={4} desc="Marowsky-Brée (2024-11), “Notes on Open Source AI Definition”" url="https://opensourcerer.eu/osaid-v1-0-notes/" /> }}
+{{ <bib num={5} desc="Organization for Ethical Source, “The Hippocratice License”. Accessed: 2024-11-15" url="https://firstdonoharm.dev/" /> }}
+{{ <bib num={6} desc="Whelchel (1986), “Is Technology Neutral?”, IEEE. Accessed: 2024-11-15" url="https://ieeexplore.ieee.org/document/5010049" /> }}
+{{ <bib num={7} desc="OSI (2024), “Frequently Asked Questions”. Accessed: 2024-11-15" url="https://opensource.org/faq#evil" /> }}
+{{ <bib num={8} desc="Corbet (2024), “Several Russian developers lose kernel maintainership status”, LWN.net. Accessed: 2024-11-15" url="https://lwn.net/Articles/995186/" /> }}
 
-<!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->
-<!-- {{ bib(num=1, desc="Author, “”, where. Accessed: 2024-11-15", url="") }} -->
+<!-- {{ <bib num={1} desc="Author, “”, where. Accessed: 2024-11-15" url="" /> }} -->
+<!-- {{ <bib num={1} desc="Author, “”, where. Accessed: 2024-11-15" url="" /> }} -->

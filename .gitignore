@@ -1,13 +1,19 @@
-# Build output
+# Zola build output
 public/
-build/
 
-# Dependencies
+# Abridge npm build script, only needed when changing js_*/search/pwa options (see CLAUDE.md)
 node_modules/
+package-lock.json
+
+# Syntax CSS written to static/ by Zola < 0.23 (now generated in public/)
+static/giallo*.css
 
 # Environment/secrets
 .env
 .env.*
+
+# Local config variants
+/config.toml.*
 
 # Editor/IDE
 *~
@@ -22,34 +28,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 
-# Sass cache
-.sass-cache/
-
-# Temporary files
-tmp/
-storage/
-
-# npm (theme tooling only)
-package-lock.json
-
-# Zola-generated syntax highlighting CSS (abridge handles this via SCSS)
-static/giallo*.css
-
-# Pagefind search artifacts
-static/js/pagefind*.js
-static/js/pagefind*.css
-static/js/pagefind*.pf_meta
-static/js/index/
-static/js/fragment/
-
-# Tinysearch artifacts (legacy)
-static/tinysearch_engine.*
-static/package.json
-
-# Theme demo files
-static/demo.html
-
-# No:
+# Local agent instructions
 CLAUDE.md
 AGENTS.md
 GEMINI.md

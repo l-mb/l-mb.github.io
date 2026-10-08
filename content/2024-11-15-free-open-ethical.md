@@ -4,15 +4,18 @@ date = "2024-11-15"
 
 [taxonomies]
 tags = ["Open Source", "Policy"]
+
+[extra]
+toc = true
 +++
 
-# TL;DR
+## TL;DR
 
 Free, Libre, and Open Source freedoms, when treated as dogma, do harm.
 To truly serve our values, the "open" software community must not only
 do more but differently.
 
-# Introduction
+## Introduction
 
 In 2012, I spent May Day (of all days) as a speaker and attendee at the
 Linux Foundation's Enterprise End User Summit in New York, hosted at the
@@ -34,7 +37,7 @@ machine that kept it all ticking.
 What happens when the tools we created to further our freedoms end up
 enabling outcomes that contradict our values?
 
-# Why Free and Open Source Software?
+## Why Free and Open Source Software?
 
 I came to this community because I believed (and still do) that, given 
 the importance of software in our world, our society, our daily lives, 
@@ -49,7 +52,7 @@ also sustainable technology and business.
 We build an ever growing, ever improving public commons, fostering 
 progress.
 
-# The loss of innocence
+## The loss of innocence
 
 However, I am also no longer sixteen. I've built my career on Free,
 Libre, and Open Source Software; I've seen people implement
@@ -75,7 +78,7 @@ But I do not want my work to enable those with whom I have a truly
 fundamental systemic incompatibility; such as whose personhood is valid,
 whose love is valid, whose choices are valid.
 
-# Free and Open Source Software
+## Free and Open Source Software
 
 I still believe that Free, Libre, and Open Source Software is much more
 compatible with my values than proprietary modes.
@@ -83,7 +86,7 @@ compatible with my values than proprietary modes.
 But these principles are not just the bare minimum: they actively
 constrain our ability to safeguard our values.
 
-## Unfettered, unrestricted
+### Unfettered, unrestricted
 
 Because one aspect the Free Software Foundation and the Open Source 
 Initiative agree on is that it must be free to use for any purpose; be 
@@ -128,7 +131,7 @@ strange?
 
 We see here a variant of the paradox of tolerance.
 
-### Digression: Who are "we"
+#### Digression: Who are "we"
 
 In this text, I've referenced "us" repeatedly, without ever defining it.
 
@@ -150,7 +153,7 @@ and values forming groups to further those, and then compatible enough
 groups joining up to form larger alliances. There will always be some
 friction.
 
-### Tangent: license compatibility
+#### Tangent: license compatibility
 
 One reason why this is opposed is that a proliferation of terms and
 conditions would make it difficult to determine whether multiple
@@ -169,7 +172,7 @@ Modular systems, compatibility matrices, formalizing the most common
 terms are possible and, at this point, honestly would not make the
 situation all that much more complicated.
 
-## Endeavours for more ethical terms
+### Endeavours for more ethical terms
 
 There are already efforts to address this, such as the [Hippocratic 
 License for Open Source Communities][5], which strives to align 
@@ -187,7 +190,7 @@ Unions, cooperatives, public sector institutions, non-profits, hobbyist
 individuals or communities, and even ethically-minded businesses could 
 lead the way in trialling and adopting such terms.
 
-# Freedom of Association
+## Freedom of Association
 
 However, there is something else you - we - can do: we don't have to
 associate with those who endanger our values.
@@ -221,7 +224,7 @@ example [the Linux kernel][8]. The governments will absolutely have
 their say; the idea that everyone is invited into every group is,
 frankly, naïve.
 
-# Free and Open Source won't save us
+## Free and Open Source won't save us
 
 Free and Open Source as they are and by themselves do not lead to a
 fairer world.
@@ -255,7 +258,7 @@ and adopt frameworks that align technology with our ethics.
 Last week, I visited the German Museum of Technology. One exhibit is a
 Hollerith tabulating machine.
 
-# Sources
+## Sources
 
 <!-- Don't come at me how ugly this is, you know how much willpower it
 took not to disappear on a side quest of citation mgmt in Zola -->

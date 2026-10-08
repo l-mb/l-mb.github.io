@@ -4,7 +4,7 @@ path = "contact"
 template = "pages.html"
 +++
 
-# Contact Me
+## Contact Me
 
 - **Name:** Lars Marowsky-Brée
 - **Pronouns:** he/they (er/ihm)
@@ -17,7 +17,7 @@ template = "pages.html"
     - [Fediverse / Mastodon](https://mastodon.online/@larsmb)
     - [LinkedIn](https://www.linkedin.com/in/larsmb/)
 
-## Feedback appreciated!
+### Feedback appreciated!
 
 Feedback on factual inaccuracies on this site is as appreciated as are
 suggestions for further material or directions to look into. 

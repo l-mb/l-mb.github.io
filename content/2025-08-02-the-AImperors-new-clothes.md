@@ -5,6 +5,9 @@ draft = false
 
 [taxonomies]
 tags = ["GenAI"]
+
+[extra]
+toc = true
 +++
 
 ## The Difficulty of Polarized Discourse
@@ -499,9 +502,9 @@ between denial and hype.
 
 Oh, and diversify your stocks.
 
-# Addenda
+## Addenda
 
-## 2025-08-03
+### 2025-08-03
 
 It's been brought to my attention that one assumption might be overly
 optimistic: that "not fit for purpose" would lead to significantly lower
@@ -545,7 +548,7 @@ recommends.
 
 Regulation and enforcement thereof is key.
 
-## 2025-08-04
+### 2025-08-04
 
 Cleaned up (hopefully) the example on "negative" hallucinations.
 

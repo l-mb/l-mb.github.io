@@ -1,0 +1,7 @@
+{#- Wraps the theme's head; `zola serve` live reload needs a websocket the production CSP must not allow. -#}
+{%- set head %}{% include "abridge/templates/partials/head.html" %}{% endset -%}
+{%- if config.mode == "serve" -%}
+{{ head | replace(from="connect-src 'self'", to="connect-src 'self' ws://127.0.0.1:* ws://localhost:*") | safe }}
+{%- else -%}
+{{ head | safe }}
+{%- endif -%}

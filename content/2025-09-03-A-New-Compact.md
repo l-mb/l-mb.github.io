@@ -1,6 +1,6 @@
 +++
 title = "A New Compact"
-date = "2025-08-02"
+date = "2025-09-03"
 draft = false
 
 [taxonomies]

@@ -4,7 +4,7 @@ path = "about"
 template = "pages.html"
 +++
 
-# About the site
+## About the site
 
 The goal of this site is to provide longer-form articles on broadly
 Free, Libre, and Open Source Software (FLOSS) topics specifically and
@@ -32,7 +32,7 @@ environmental implications and contexts; I consider the attempts to
 "keep politics out of tech" to be deeply flawed, misguided, and
 something usually only very privileged people can afford.
 
-# About Me
+## About Me
 
 My name is Lars Marowsky-Brée, and I have been dabbling with computers
 since 1988. My first true and conscious experience with Free Software
@@ -75,9 +75,9 @@ content.
 I'm also grateful if you let me know if anything I wrote was actually
 useful to someone else!
 
-# Disclaimers
+## Disclaimers
 
-## Personal Content
+### Personal Content
 
 In no way should content on this site be attributed to, or seen as
 official positions or statements of my past, current, or future
@@ -89,7 +89,7 @@ dedicated channels directly.
 If you wish to contact me in my role as an employee, please also utilize
 my work-related e-mail address.
 
-## Non-commercial
+### Non-commercial
 
 This site does not pursue any commercial goals nor contain any sponsored
 content. Should you find an untagged affiliate link, please let me know,
@@ -100,7 +100,7 @@ is the only way of referencing external content.
 The articles on this site are not sponsored by, paid for, or requested
 by my employer.
 
-# Attributions & Credits
+## Attributions & Credits
 
 This site would not be possible without:
 

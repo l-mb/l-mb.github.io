@@ -5,7 +5,7 @@
   /// Enable a centered viewport for <header>, <main>, <footer> inside <body>
   /// Fluid layout until a defined size, then becomes centered viewport.
   //$enable-maxwidth: true,
-  $mw: 30%,// max-width
+  $mw: 1024px,// max-width
   $mb: 1024px,// value at which to switch from fluid layout to max-width
 
   $abridgeMode: "switcher",//valid values: switcher, auto, dark, light
@@ -138,8 +138,9 @@
   //$findFont-Code: null,         // ← PREPEND custom CODE font(s)
 
   /// These lines specify the fonts to add.
-  //$fontExt-Main: (ExampleFont1, "Example Font 2"),// MAIN font(s) to add
-  //$fontExt-Code: (ExampleCode1, "Example Code 2"),// CODE font(s) to add
+  /// Family names must be quoted; unquoted names yield an invalid space-separated stack.
+  $fontExt-Main: "Atkinson Hyperlegible Next",// MAIN font(s) to add
+  $fontExt-Code: "Atkinson Hyperlegible Mono",// CODE font(s) to add
 
   /// If relying on installed fonts alone, then the above is all you need, if the visiting system has the intended font installed then it will use it!
   /// However, if you want to load the Font File resource to ensure it is loaded if they do not have it, then use @use at the VERY Bottom of this file.
@@ -191,7 +192,7 @@
   //$blocks: true,//css classes for block formatting, eg: recent posts, table of contents, series navigation
   //$series: true,//series navigation list
   //$modifiers: true,//tiny modifier classes for sizing, spacing, etc.
-  $misc: true,
+  //$misc: false,
   //$grid: true,//Infinity Grid, column based layouts.
   //$syntax: true,//syntax highlighting for code blocks
   //$coderoundhighlight: false,//round corners on highlighted code blocks
@@ -204,5 +205,4 @@
  *     make sure to have the relevant woff2 fonts in your static/fonts folder
  *   I measured the least Cumulative Layout Shift with: Roboto, Lato, Arimo
  *****************************************************************************/
-//@use "fonts/Roboto";
-//@use "fonts/Arimo";
+@use "fonts/AtkinsonHyperlegible";

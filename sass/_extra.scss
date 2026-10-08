@@ -2,3 +2,9 @@
 main > :only-child {
     max-width: 75ch;
 }
+
+// Prose links differ from body text by colour only (~1.2:1); WCAG 1.4.1 needs a non-colour cue.
+main :is(p, li, td, blockquote) a {
+    text-decoration: underline;
+    text-underline-offset: .15em;
+}

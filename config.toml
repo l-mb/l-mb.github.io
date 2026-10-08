@@ -7,12 +7,14 @@ base_url = "https://opensourcerer.eu"
 title = "OpenSourcerer.eu"
 description = "Lars Marowsky-Brée on Free, Libre, and Open Source, Software Engineering, and IT"
 theme = "abridge"
+author = "Lars Marowsky-Brée" # Atom feed author; extra.author feeds the theme's meta tags
 
 default_language = "en"
 compile_sass = true
 minify_html = true
 build_search_index = true
 generate_feeds = true
+exclude_paginated_pages_in_sitemap = "all"
 taxonomies = [
 #    {name = "categories", feed = true},
     {name = "tags", feed = true},
@@ -22,7 +24,7 @@ taxonomies = [
 #output_dir = "public"
 # ignored_content = ["*.{graphml,xlsx}", "temp.*"]
 #hard_link_static = false # set to true to hard link instead of copying, useful for very large files.
-# ignored_static = ["apple-touch-icon.png","banner.png","safari-pinned-tab.svg","favicon*.ico","m*.png","android-chrome*png"]
+# ignored_static only filters the site's static/, not the theme's (getzola/zola#2677).
 
 [search]                # Options specific to elasticlunr search.
 # index format can be: elasticlunr_json or elasticlunr_javascript or fuse_json
@@ -43,7 +45,7 @@ smart_punctuation = false          # `...` to `…`, `"quote"` to `“curly”` 
 [markdown.highlighting]
 style = "class"
 error_on_missing_language = true
-theme = "github-dark"
+theme = "plastic" # Abridge's .z-N colors assume plastic's class numbering
 
 [extra]
 ###############################################################################
@@ -80,7 +82,7 @@ series_items = 9 # Max number of items to display in series list, use 0 to disab
 #arrow_pagination = true # If set to true then the pagination will use the old arrows mode, be sure to also enable the icons.
 
 meta_index = { position="bottom", size="s90", author=false, readtime=false, readstring="min", date=true, updated=false, categories_tags=true, divider="" }
-meta_post = { position="top", size="s95", author=true, readtime=false, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
+meta_post = { position="top", size="s95", author=true, readtime=true, readstring="min read", date=true, updated=true, categories_tags=true, divider="" }
 
 hide_section_dates = false # hides the date for sections that use posts.html as their template.
 hide_page_nextprev_titles = false # hides the next/previous titles for pages that use page.html as their template.
@@ -119,11 +121,12 @@ keywords = "Open Source, Free Software, Digital Sovereignty, Software Engineerin
 # twitter_meta = "your-user-name" # for SEO: twitter:site and twitter:creator
 # google = "Your Google Site verification code."
 # bing = "Your Bing Site verification code."
-seo = false  # enable or disable seo-related meta tags: opengraph, facebook, twitter
+seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twitter
 
 dev = false # development mode, if true then robots.txt should prevent search indexing.
 
-#head_extra = '<meta name="analytics" content="my-analytics-id" /><meta name="advertising" content="my-advertising-id" />'
+# Not via fonts = [...]: the theme omits crossorigin, so the preload would not match and the font loads twice.
+head_extra = '<link rel="preload" href="/fonts/AtkinsonHyperlegibleNext.woff2" as="font" type="font/woff2" crossorigin>'
 
 
 ###############################################################################
@@ -166,13 +169,15 @@ github = "l-mb"
 ### You can load extra css files if you need to, just separate by comma:
 ### stylesheets = [ "abridge.css", "extra.css" ]
 ### search_library, library to use. valid values:
-###   false, "elasticlunr", "elasticlunrjava", "pagefind", "tinysearch", "offline"
+###   false, "elasticlunr", "elasticlunrjava", "pagefind", "tinysearch", "flexsearch", "offline", "offlineflexsearch"
 ###     elasticlunr - elasticlunr using the elasticlunr_json index format
 ###     elasticlunrjava - elasticlunr using the elasticlunr_javascript index format
 ###     pagefind - pagefind using the fuse_json index format
 ###     tinysearch - tinysearch using the fuse_json index format
+###     flexsearch - FlexSearch using the fuse_json index format with CJK and typo-tolerant search
 ###     offline - elasticlunr using the elasticlunr_javascript index format with content paths relative to the location on disk.
-###       (offline: implies uglyurls=true and integrity=false, node script will pass base_url argument as the path on disk.)
+###     offlineflexsearch - FlexSearch using fuse_json; produces a relocatable public folder that can be opened via file://.
+###       (offline/offlineflexsearch: imply uglyurls=true and integrity=false; offlineflexsearch rewrites final output to relative paths.)
 ###
 ###       The PWA feature is another way to build an offline site, so there are now two
 ###       different ways to build an offline site with Abridge.
@@ -202,7 +207,7 @@ pwa = false # true to load the service worker (requires regenerating static/js v
 
 favicon_theme_color = "#333333"
 favicon_ms_color = "#333333"
-favicon_mask_color = "#ff9900"
+favicon_mask_color = "#333333"
 favicon_svg = "favicon.svg" # favicon.svg
 favicon_mask = "favicon.svg" # safari-pinned-tab.svg
 favicon180 = "apple-touch-icon.png"
@@ -213,11 +218,16 @@ favicon180 = "apple-touch-icon.png"
 ###############################################################################
 ### Commenting System for visitors to leave comments on pages.
 ###   hyvor talk
+###   remark42
 ###############################################################################
+
+#comment_system = "hyvor" # valid values are: "hyvor", "remark42"
 
 #comments.hyvor = "9366" # hyvor website id, comment out to disable.
 #comments.hyvorcolor = "os" # set the color property for hyvor
 
+#comments.remark42 = "https://comments.example.com" # remark42 server url, comment out to disable. If using Abridge's CSP, add this origin to script-src/connect-src as required by your Remark42 deployment.
+#comments.remark42_site_id = "remark" # remark42 site id
 
 ###############################################################################
 ### Icons
@@ -263,8 +273,7 @@ favicon180 = "apple-touch-icon.png"
 security_header_referrer = "strict-origin-when-cross-origin"
 
 # CSP configured for privacy-first static site with self-hosted resources only
-# Note: If adding Mastodon comments, add mastodon.online to connect-src
-security_header_csp = "default-src 'none'; base-uri 'self'; manifest-src 'self'; connect-src 'self' ws://127.0.0.1:* ws://localhost:*; form-action 'self'; script-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; object-src 'none';"
+security_header_csp = "default-src 'none'; base-uri 'self'; manifest-src 'self'; connect-src 'self'; form-action 'self'; script-src 'self'; img-src 'self' data:; font-src 'self'; style-src 'self'; object-src 'none';"
 
 
 ###############################################################################
@@ -295,11 +304,11 @@ security_header_csp = "default-src 'none'; base-uri 'self'; manifest-src 'self';
 
 
 ###############################################################################
-### Katex - math js library, used to to render mathematical notations
-### It's best to enable katex on a per page bases as I did here:
-###   https://abridge.netlify.app/overview-math/
-###   https://github.com/Jieiku/abridge/blob/master/content/overview-math.md?plain=1#L11-L13
-### Otherwise you will load the katex related javascript on every page!
+### KaTeX - math library used to render mathematical notation
+### The katex component is detected automatically from rendered page/section content,
+### so `math = true` is no longer required. Pages without KaTeX do not load it.
+### Set `math_auto_render = true` only when using raw $...$ / $$...$$ delimiters.
+### The legacy `math` setting remains supported for compatibility.
 ###############################################################################
 
 #katex_options = "js/katexoptions.js"
@@ -312,14 +321,14 @@ security_header_csp = "default-src 'none'; base-uri 'self'; manifest-src 'self';
 #katex_autorender_js = "js/katex-auto-render.min.js"
 
 ### Load Katex External Resources
-#katex_css = "https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css" # Fonts - use remote fonts
-#katex_css_integrity = "sha384-ZPe7yZ91iWxYumsBEOn7ieg8q/o+qh/hQpSaPow8T6BwALcXSCS6C6fSRPIAnTQs"
-#katex_js = "https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"
-#katex_js_integrity = "sha384-ljao5I1l+8KYFXG7LNEA7DyaFvuvSCmedUf6Y6JI7LJqiu8q5dEivP2nDdFH31V4"
-#katex_autorender_js = "https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"
-#katex_autorender_js_integrity = "sha384-+XBljXPPiv+OzfbB3cVmLHf4hdUFHlWNZN5spNQ7rmHTXpd7WvJum6fIACpNNfIR"
-#mathtex_js = "https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/mathtex-script-type.min.js"
-#mathtex_js_integrity = "sha384-jiBVvJ8NGGj5n7kJaiWwWp9AjC+Yh8rhZY3GtAX8yU28azcLgoRo4oukO87g7zDT"
+#katex_css = "https://cdn.jsdelivr.net/npm/katex@0.18.7/dist/katex.min.css" # Fonts - use remote fonts
+#katex_css_integrity = "sha384-JctiRyLzXCrSoOOzFlSoWLdyzQl7OrrRnhyeBmzB6ZWtcjccUyc8lCQJqIbs3uQX"
+#katex_js = "https://cdn.jsdelivr.net/npm/katex@0.18.7/dist/katex.min.js"
+#katex_js_integrity = "sha384-+7Keh381hSkXmXqnjC0JBM/kzsN6TFj+wMKychSLjTvJ8/0ElMde2uKl8i6p6Buj"
+#katex_autorender_js = "https://cdn.jsdelivr.net/npm/katex@0.18.7/dist/contrib/auto-render.min.js"
+#katex_autorender_js_integrity = "sha384-bjyGPfbij8/NDKJhSGZNP/khQVgtHUE5exjm4Ydllo42FwIgYsdLO2lXGmRBf5Mz"
+#mathtex_js = "https://cdn.jsdelivr.net/npm/katex@0.18.7/dist/contrib/mathtex-script-type.min.js"
+#mathtex_js_integrity = "sha384-W8gaN87yMtPe/iAcxlyIDA8OVOzZvVD4c/HEE6QHhIyo8yHnVSXLzzy+eNWwpivm"
 
-#math = false # Recommended setting false, and enable on per page bases instead.
-#math_auto_render = false # Recommended setting false, and enable on per page bases instead.
+#math = false # Legacy compatibility override; normally unnecessary because katex components are auto-detected.
+#math_auto_render = false # Enable only where raw $...$ / $$...$$ delimiters should be auto-rendered.

@@ -1,0 +1,12 @@
+// Atkinson Hyperlegible Next/Mono: Google Fonts latin subset, variable weight. SIL OFL 1.1, see static/fonts/OFL-*.txt.
+@each $family, $file in ("Atkinson Hyperlegible Next": "AtkinsonHyperlegibleNext", "Atkinson Hyperlegible Mono": "AtkinsonHyperlegibleMono") {
+    @each $style, $suffix in (normal: "", italic: "-Italic") {
+        @font-face {
+            font-family: $family;
+            src: url("fonts/#{$file}#{$suffix}.woff2") format("woff2");
+            font-weight: 200 800;
+            font-style: $style;
+            font-display: swap;
+        }
+    }
+}

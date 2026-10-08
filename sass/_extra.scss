@@ -9,10 +9,21 @@ main :is(p, li, td, blockquote) a {
     text-underline-offset: .15em;
 }
 
-// Monospace title; it is wider than the main font, so it shrinks to stay on one line at 320px (WCAG 1.4.10).
-.site-title {
+// Monospace accents: site title, motto, and post metadata (.meta, templates/components/meta.html).
+.site-title, .motto, .meta {
     font-family: var(--fm);
+}
+// The mono title is wider than the main font; it shrinks to stay on one line at 320px (WCAG 1.4.10).
+.site-title {
     font-size: min(2rem, 9vw);
+}
+// Dates break at hyphens otherwise when the metadata line wraps.
+.meta :is(time, a) {
+    white-space: nowrap;
+}
+// Lighter than the date beside it; 70% keeps >= 4.5:1 contrast in both themes.
+.meta .readtime {
+    color: color-mix(in srgb, currentColor 70%, var(--c1));
 }
 
 // Header motto (templates/partials/motto.html): Camus' Sisyphus beside the site title, text-only on narrow screens.
@@ -26,7 +37,6 @@ header > nav > div:first-child {
     margin: 0 0 0 auto;
     min-width: 0;
     color: var(--f2);
-    font-family: var(--fm);
 }
 svg.motto {
     flex: 0 1 30rem;

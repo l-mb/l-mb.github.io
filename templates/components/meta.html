@@ -1,0 +1,13 @@
+{#- Replaces Abridge's meta_post/meta_index (themes/abridge/templates/components/components.html) for ISO 8601 dates.
+    Implements only the options config.toml sets: readtime, date, updated, tags. No author (the site tagline names it), icons, categories, divider or i18n. -#}
+{%- component meta(page, opts) -%}
+<span class="meta {{ opts.size }}">
+  {%- if opts.readtime %} <span class="readtime">{{ page.reading_time }} {{ opts.readstring }}</span> <span class="rpad"></span>{% endif %}
+  {%- if opts.date %} <time datetime="{{ page.date }}">{{ page.date | date(format="%F") }}</time>{% endif %}
+  {%- if opts.updated and page.updated %} <span class="rpad"></span> Updated: <time datetime="{{ page.updated }}">{{ page.updated | date(format="%F") }}</time>{% endif %}
+  {%- if page.taxonomies.tags %} <span class="rpad"></span>{% for tag in page.taxonomies.tags %} #<a href="{{ get_taxonomy_url(kind='tags', term=tag, lang=page.lang) | safe }}">{{ tag }}</a>{% endfor %}{% endif %}
+</span>
+{%- endcomponent meta -%}
+
+{%- component meta_post(page, config) -%}{{<meta page={page} opts={config.extra.meta_post} />}}{%- endcomponent meta_post -%}
+{%- component meta_index(page, config) -%}{{<meta page={page} opts={config.extra.meta_index} />}}{%- endcomponent meta_index -%}

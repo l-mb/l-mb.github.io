@@ -8,3 +8,81 @@ main :is(p, li, td, blockquote) a {
     text-decoration: underline;
     text-underline-offset: .15em;
 }
+
+// Header motto (templates/partials/motto.html): Camus' Sisyphus beside the site title, text-only on narrow screens.
+header > nav > div:first-child {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex: 1 1 100%;
+}
+.motto {
+    margin: 0 0 0 auto;
+    min-width: 0;
+    color: var(--f2);
+}
+svg.motto {
+    flex: 0 1 30rem;
+    height: auto;
+    overflow: visible; // the notes bob above the viewBox
+}
+.motto-text {
+    display: none;
+    font-size: 1.1rem;
+    line-height: 1.05;
+    // Light ends at 62% keep >= 4.5:1 contrast in both themes; solid text where color-mix() is unsupported.
+    background: var(--f2);
+    background: linear-gradient(135deg,
+        color-mix(in srgb, var(--f2) 62%, var(--c1)),
+        var(--f2) 50%,
+        color-mix(in srgb, var(--f2) 62%, var(--c1)));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+@media (max-width: 767px) {
+    header > nav > div:first-child {
+        flex-direction: column;
+        gap: .25rem;
+    }
+    .motto {
+        margin: 0 auto;
+    }
+    svg.motto {
+        display: none;
+    }
+    .motto-text {
+        display: block;
+    }
+}
+
+// Notes bob briefly on load (under 5s, WCAG 2.2.2) and while hovered; hovering also rocks the boulder.
+@media (prefers-reduced-motion: no-preference) {
+    .scene :is(.rock, .note) {
+        transform-box: fill-box;
+        transform-origin: center;
+    }
+    .scene .note {
+        animation: bob 1.2s ease-in-out 4;
+    }
+    .scene .late {
+        animation-delay: -.6s;
+    }
+    .scene:hover .note {
+        animation-name: bob-hover; // a new name restarts reliably
+        animation-iteration-count: infinite;
+    }
+    .scene:hover .rock {
+        animation: roll 1.6s ease-in-out;
+    }
+}
+@keyframes bob {
+    50% { transform: translateY(-3px); }
+}
+@keyframes bob-hover {
+    50% { transform: translateY(-3px); }
+}
+@keyframes roll { // favicon units: a little way back uphill, then settle
+    40% { transform: translate(-45px, -8px) rotate(-50deg); }
+    70% { transform: translate(6px, 0) rotate(8deg); }
+}

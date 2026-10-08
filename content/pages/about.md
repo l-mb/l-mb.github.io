@@ -107,4 +107,4 @@ This site would not be possible without:
 - [Zola Static Site Generator](https://getzola.org/)
 - [Zola GitHub Action](https://github.com/shalzz/zola-deploy-action)
 - [Zola Abridge Theme](https://github.com/jieiku/abridge)
-- [Favicon](https://vectordoodle.gumroad.com/l/FOCLd)
+- [Favicon and header boulder](https://vectordoodle.gumroad.com/l/FOCLd)

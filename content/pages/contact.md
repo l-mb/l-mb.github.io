@@ -4,10 +4,10 @@ path = "contact"
 template = "pages.html"
 +++
 
-## Contact Me
+## Channels
 
 - **Name:** Lars Marowsky-Brée
-- **Pronouns:** he/they (er/ihm)
+- **Pronouns:** he/him, (they/them also fine) (er/ihm)
 - **Languages:** English & Deutsch
 - **Direct:**
     - [E-Mail](lars@marowsky-bree.eu) *unencrypted*

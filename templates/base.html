@@ -1,0 +1,11 @@
+{%- extends "abridge/templates/base.html" -%}
+{#- Abridge has no hook beside the site title, so splice the motto into its rendered header.
+    The anchor is unique only while config.languages is empty (the language menu emits more). -#}
+{%- block header -%}
+{%- set theme_header %}{{ super() }}{% endset -%}
+{%- if theme_header | split(pat="</a></div>") | length != 2 -%}
+{{ throw(message="templates/base.html: Abridge header changed; expected exactly one </a></div> after the site title") }}
+{%- endif -%}
+{%- set motto %}</a>{% include "partials/motto.html" %}</div>{% endset -%}
+{{ theme_header | replace(from="</a></div>", to=motto) | safe }}
+{%- endblock header -%}

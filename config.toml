@@ -126,7 +126,8 @@ seo = true  # enable or disable seo-related meta tags: opengraph, facebook, twit
 dev = false # development mode, if true then robots.txt should prevent search indexing.
 
 # Not via fonts = [...]: the theme omits crossorigin, so the preload would not match and the font loads twice.
-head_extra = '<link rel="preload" href="/fonts/AtkinsonHyperlegibleNext.woff2" as="font" type="font/woff2" crossorigin>'
+# Mono is used by the header (site title, motto) on every page.
+head_extra = '<link rel="preload" href="/fonts/AtkinsonHyperlegibleNext.woff2" as="font" type="font/woff2" crossorigin><link rel="preload" href="/fonts/AtkinsonHyperlegibleMono.woff2" as="font" type="font/woff2" crossorigin>'
 
 
 ###############################################################################

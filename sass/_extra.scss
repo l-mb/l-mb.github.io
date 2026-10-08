@@ -9,6 +9,12 @@ main :is(p, li, td, blockquote) a {
     text-underline-offset: .15em;
 }
 
+// Monospace title; it is wider than the main font, so it shrinks to stay on one line at 320px (WCAG 1.4.10).
+.site-title {
+    font-family: var(--fm);
+    font-size: min(2rem, 9vw);
+}
+
 // Header motto (templates/partials/motto.html): Camus' Sisyphus beside the site title, text-only on narrow screens.
 header > nav > div:first-child {
     display: flex;
@@ -20,6 +26,7 @@ header > nav > div:first-child {
     margin: 0 0 0 auto;
     min-width: 0;
     color: var(--f2);
+    font-family: var(--fm);
 }
 svg.motto {
     flex: 0 1 30rem;

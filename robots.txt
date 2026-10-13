@@ -1,0 +1,5 @@
+
+Sitemap: https://opensourcerer.eu/sitemap.xml
+User-Agent: *
+Allow: /
+Host: https://opensourcerer.eu
